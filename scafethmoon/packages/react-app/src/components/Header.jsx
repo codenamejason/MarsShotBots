@@ -7,9 +7,9 @@ export default function Header() {
   return (
     <a href="https://github.com/austintgriffith/scaffold-eth" target="_blank" rel="noopener noreferrer">
       <PageHeader
-        title="🤖 🚀 😭 FORGOTTEN Moonshot Bots"
+        title="🤖 🚀 ♂ Mars-Shot-Bots"
         subTitle=""
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer" }, {backgroundColor: '#ff79b5'}}
       />
     </a>
   );

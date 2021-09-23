@@ -391,16 +391,16 @@ function App(props) {
             */}
 
 
-            <div class="colorme">
+            <div class="">
             <img class="logo_moonshot sub" src="Layton.png" />
             <img class="logo_moonshot" src="Danielle.png" />
             <img class="logo_moonshot sub" src="Elyse.png" />
             <br/>
-            <h1 >Forgotten Moonshot Bots</h1>
+            <h1 >Mars-Shot Bots</h1>
 
             <h2>An ⭐️OMEGA-Rare⭐️ PFP (179 supply)</h2>
             <h2>Assets Created and ABANDONED 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
-            <h2>❤️🛠 Deployed on 9/19, after an extended rescue mission. </h2>
+            <h2>❤️🛠 Deployed on "x", after an extended rescue mission. </h2>
             <div style={{padding:32}}>
               <Button type={"primary"} onClick={async ()=>{
                 let price = await readContracts.MarsShotBots.price()
@@ -408,10 +408,10 @@ function App(props) {
               }}>MINT for Ξ{priceToMint && (+ethers.utils.formatEther(priceToMint)).toFixed(4)}</Button>
 
               <div class="publicgoodsgood">
-                <h2>🌱❤️*80% Proceeds To Public Goods❤️, 20% to simpl, who rescued these bots. He needs a rescue, too.🌱</h2>
+                <h2>🌱❤️*100% Proceeds To Public Goods❤️🌱</h2>
                   🦧✊ <strong>Demand more from PFPs! 👇</strong> <br/>
-                 🌱🌱 <strong>80%</strong> of MarsShotBots Minting Fees go to fund Ethereum Public Goods on Gitcoin Grants 🌱🌱  The other 20% goes to simpl who rescued the bots!<br/>
-                 <strong>🦧✊🌱80%🌱✊🦧</strong>
+                 🌱🌱 <strong>100%</strong> of Mars-Shot-Bots Minting Fees go to fund Ethereum Public Goods on Gitcoin Grants 🌱🌱<br/>
+                 <strong>🦧✊🌱100%🌱✊🦧</strong>
               </div>
               <br/>
               <br/>
@@ -420,20 +420,20 @@ function App(props) {
             {yourCollectibles && yourCollectibles.length>0 ?
               <div></div>
               :
-            <div class="colorme2">
+            <div class="">
 
-            <h4 style={{padding:5}}>Why We Think MarsShotBots Rock:</h4>
+            <h4 style={{padding:5}}>Why We Think Mars-ShotBots Rock:</h4>
             <br/>
             <br/>
             <ul class="rocks">
               <li>
-               🤖🍠 These are the placeholder images and meta-datas abandoned by MoonshotCollective, and they deserve a home.
+               🤖🍠 These are the original 179 placeholders for MSB by MoonshotCollective.
               </li>
               <li>
                🤖👑 Oh the Novelty!
               </li>
               <li>
-               🤖🌱 80% Proceeds Support Public Goods! - 20% to the rescuer.
+               🤖🌱 100% Proceeds Support Public Goods!
               </li>              
               <li>
                🤖❤️ Hang with your botfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
@@ -448,7 +448,7 @@ function App(props) {
             {yourCollectibles && yourCollectibles.length>0 ?
               <div></div>
               :
-            <div class="colorme3">
+            <div class="">
 
             <h4 style={{padding:5}}>Testimonials:</h4>
             <br/>
@@ -486,7 +486,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
             {yourCollectibles && yourCollectibles.length>0 ?
               <div style={{ width:640, margin: "auto", marginTop:32, padding:32 }}>
-               <h4 style={{padding:5}}>Your MarsShotBots 🤖🚀🌕</h4>
+               <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖🚀🌕</h4>
             <br/>
             <br/>
 
@@ -537,8 +537,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               </div>:
 
             <div id="preview">
-              <h4>Give these rescued bots a loving home 🤖🏠❤️</h4>
-              <h4>These images may be broken bc IPFS is mean :(, be patient.</h4>
+              <h4>Give these rescued bots a loving home 🤖🏠❤️</h4>              
             <br/>
             <br/>
 
@@ -725,7 +724,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
 
 
-            <footer class="colorme" style={{padding:64}}>
+            <footer class="" style={{padding:64}}>
                <h4 style={{padding:5}}>FAQ</h4>
             <br/>
             <br/>
@@ -733,10 +732,10 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               <li>
                  <p>
                  <strong>
-                 🙋‍♂️  Why are there 179 MarsShotBots available?
+                 🙋‍♂️  Why are there 179 Mars-Shot-Bots available?
                  </strong>
                  <br/>
-                 Because I found 179 placeholder MoonshotBot assets on IPFS by sleuthing!
+                 Because Elon said so
                  </p>
               </li>
               <li>
@@ -745,7 +744,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♀️ When was this project launched?
                  </strong>
                  <br/>
-                 Sep 17th, 2021, because I needed to ride some coat-tails
+                 edit later
                  </p>
               </li>
               <li>
@@ -754,7 +753,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️ Why was this project launched?
                  </strong>
                  <br/>
-                 See above, also, I wanted to learn some things.
+                 edit these later
                  </p>
               </li>
               <li>
@@ -763,7 +762,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♀️ What are all the cool kids doing?
                  </strong>
                  <br/>
-                 You are welcome to purchase 2 MarsShotBotss.  Keep one for yourself, and send another to your favorite Builder.    
+                 You are welcome to purchase 2 Mars-ShotBots.  Keep one for yourself, and send another to your favorite Builder.    
                  <br/>
                  <br/>
                  Karma FTW!             </p>
@@ -774,7 +773,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️ How is the price calculated?
                  </strong>
                  <br/>
-                 These PFPs are minted on a bonding curve that increases ~9% (cause ~half the supply of MSB) each purchase, and starts with a price of 0.0033 ETH.  Here new curvbe!:
+                 These PFPs are minted on a bonding curve that increases ~4% each purchase, and starts with a price of 0.0033 ETH.  Here new curvbe!:
                  <br/>
                  <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI29iQh565K6GykQDplsmYM9-84LB7L2dumXBe_7oaoF8lfb3L-4wgzNyur7wRKFhQBPFHLWK5S30z/pubchart?oid=202580104&format=image">
                   <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI29iQh565K6GykQDplsmYM9-84LB7L2dumXBe_7oaoF8lfb3L-4wgzNyur7wRKFhQBPFHLWK5S30z/pubchart?oid=202580104&format=image" class="chart"/>
@@ -785,16 +784,16 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               <li>
                  <p>
                  <strong>
-                 🙋‍♀️Where does the ETH go when I purchase a MarsShotBots?
+                 🙋‍♀️Where does the ETH go when I purchase a Mars-ShotBots?
                  </strong>
                  <br/>
-                80% of funds will go to the <a href="https://etherscan.io/address/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6">Gitcoin Grants Multisig</a> to fund public goods on Gitcoin. 20% is going to simpl, who rescued these bots.
+                100% of funds will go to the <a href="https://etherscan.io/address/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6">Gitcoin Grants Multisig</a> to fund public goods on Gitcoin.
                  </p>
               </li>
               <li>
                  <p>
                  <strong>
-                 🙋‍♂️Which MarsShotBots are the rarest?
+                 🙋‍♂️Which Mars-ShotBots are the rarest?
                  </strong>
                  <br/>
                  1. I don't know!
@@ -829,16 +828,13 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️I has another question, where can I get in touch?
                  </strong>
                  <br/>
-                 Tweet at me; <a href="https://twitter.com/simpl192">@simpl192</a> I have no association with MoonshotCollective, ScaffETH, Austin, etc. However, I do appreciate their work and have learned much through their tools!
+                 Tweet at me; <a href="https://twitter.com/simpl192">@simpl192</a> 
                  </p>
               </li>
 
 
             </ul>
-            <br/>
-
-              <a style={{padding:8}} href="https://github.com/austintgriffith/scaffold-eth/tree/moonshot-bots-with-curve">ScaffEth repo that I sleuthed.</a>
-               |
+            <br/>              
               <a style={{padding:8}} href="broken">On OpenSea sometime soon?</a>
               |
               <a style={{padding:8}} href="https://etherscan.io/address/0x87EB118B004579fd82ddEd7F8e9d261A03172Ef1#writeContract">EtherScan</a>
@@ -848,7 +844,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               |
               <a style={{padding:8}} href="https://discord.gg/ACKb28pSSP">Discord</a>
               |
-              <a style={{padding:8}} href="https://moonshotcollective.space">Moonshot Collective is not associated with my stupid antics, but here's their site</a>
+              <a style={{padding:8}} href="https://moonshotcollective.space">Moonshot Collective</a>
               |
               Art by <a style={{padding:8}} href="https://Gitcoin.co/theCydonian">@theCydonian</a>/<a style={{padding:8}} href="https://Gitcoin.co/nasehim7">@nasehim7</a>
                        
