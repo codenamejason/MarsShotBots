@@ -4,7 +4,7 @@ import "antd/dist/antd.css";
 import {  JsonRpcProvider, Web3Provider } from "@ethersproject/providers";
 import {  LinkOutlined } from "@ant-design/icons"
 import "./App.css";
-import { Row, Col, Button, Menu, Alert, Input, List, Card, Switch as SwitchD } from "antd";
+import { Row, Col, Button, Grid, Menu, Alert, Input, List, Card, Switch as SwitchD } from "antd";
 import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { useUserAddress } from "eth-hooks";
@@ -179,8 +179,11 @@ function App(props) {
   const transferEvents = useEventListener(readContracts, "MarsShotBots", "Transfer", localProvider, 1);
   console.log("📟 Transfer events:",transferEvents)
 
+  //track the latest bots minted
+  const [lastestMintedBots, setLatestMintedBots] = useState();
+  console.log("📟 latestBotsMinted:", lastestMintedBots);
 
-
+  
   //
   // 🧠 This effect will update yourCollectibles by polling when your balance changes
   //
@@ -215,6 +218,35 @@ function App(props) {
     }
     updateYourCollectibles()
   },[ address, yourBalance ])
+
+  useEffect(() => {
+    const getLatestMintedBots = async () => {
+      let latestMintedBotsUpdate = [];
+
+      for( let botIndex = 0; botIndex < 3; botIndex++){
+        if (transferEvents.length > 0){
+          try{
+          let tokenId = transferEvents[botIndex].tokenId.toNumber()
+          const tokenURI = await readContracts.MarsShotBots.tokenURI(tokenId);
+          const ipfsHash = tokenURI.replace("https://forgottenbots.mypinata.cloud/ipfs/", "");
+          const jsonManifestBuffer = await getFromIPFS(ipfsHash);
+
+            try {
+              const jsonManifest = JSON.parse(jsonManifestBuffer.toString());
+              latestMintedBotsUpdate.push({ id: tokenId, uri: tokenURI, owner: address, ...jsonManifest });
+            } catch (e) {
+              console.log(e);
+            }
+          } catch (e) {
+            console.log(e);
+          }
+        }
+      }
+      setLatestMintedBots(latestMintedBotsUpdate);
+    }
+    getLatestMintedBots();
+  }, [address, yourBalance])
+
 
   /*
   const addressFromENS = useResolveName(mainnetProvider, "austingriffith.eth");
@@ -415,12 +447,50 @@ function App(props) {
               </div>
               <br/>
               <br/>
-            </div>
+
+              {lastestMintedBots && lastestMintedBots.length > 0 ? (
+                <div class="latestBots">
+                
+                <List
+                  dataSource={lastestMintedBots}
+                  renderItem={item => {
+                    const id = item.id;
+                    return (
+                      <Row align="middle" gutter={[4, 4]}>
+                        <Col span={8}>
+                      <List.Item style={{ display: 'inline'}}>
+                        <Card
+                          style={{ borderBottom:'none', border: 'none', background: "none"}}
+                          title={
+                            <div style={{ display: 'inline', fontSize: 16, marginRight: 8, color: 'white' }}>
+                              #{id} {item.name}
+                            </div>                            
+                          }
+                        >
+                          <div>
+                            <img src={item.image} style={{ maxWidth: 150 }} />
+                          </div>
+                        </Card>
+                      </List.Item>
+                      </Col>
+                      </Row>
+                      
+                    );
+                  }}
+                />
+              </div>
+            ) : (
+              <div>
+              </div>
+            )}
+                <br />
+                <br /> 
+              </div>
 
             {yourCollectibles && yourCollectibles.length>0 ?
               <div></div>
               :
-            <div class="">
+            <div class="colorme2">
 
             <h4 style={{padding:5}}>Why We Think Mars-ShotBots Rock:</h4>
             <br/>
@@ -448,7 +518,7 @@ function App(props) {
             {yourCollectibles && yourCollectibles.length>0 ?
               <div></div>
               :
-            <div class="">
+            <div class="colorme3">
 
             <h4 style={{padding:5}}>Testimonials:</h4>
             <br/>
@@ -724,7 +794,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
 
 
-            <footer class="" style={{padding:64}}>
+            <footer class="colorme" style={{padding:64}}>
                <h4 style={{padding:5}}>FAQ</h4>
             <br/>
             <br/>
