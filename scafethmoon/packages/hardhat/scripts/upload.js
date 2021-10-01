@@ -11,15 +11,23 @@ const main = async () => {
 
   let allAssets = {}
 
+
+async function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
   console.log("\n\n Loading artwork.json...\n");
   const artwork = JSON.parse(fs.readFileSync("../../artwork.json").toString())
 
-  for(let a in artwork){    
+  for(let a in artwork){
     console.log("  Uploading "+artwork[a].name+"...")
     const stringJSON = JSON.stringify(artwork[a])
-    //console.log("creating json files")
-    //fs.writeFileSync(`../react-app/jsons/${artwork[a].name}.json`, stringJSON)
-    const uploaded = await ipfs.add(stringJSON, {path: 'QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn/'})
+    console.log("creating json files")
+    let scoredNames = artwork[a].name.replace(/ /g,"_")
+    let removeMars = scoredNames.replace(/_Mars_Shot_Bot/g,"")
+    fs.writeFileSync(`../react-app/jsons/${removeMars}.json`, stringJSON)
+    //sleep(1000)
+    const uploaded = await ipfs.add(stringJSON)
     console.log("   "+artwork[a].name+" ipfs:",uploaded.path)
     allAssets[uploaded.path] = artwork[a]
   }
@@ -28,7 +36,6 @@ const main = async () => {
   const finalAssetFile = "export default "+JSON.stringify(allAssets)+""
   fs.writeFileSync("../react-app/src/assets.js",finalAssetFile)
   fs.writeFileSync("./uploaded.json",JSON.stringify(allAssets))
-
 
 
 
@@ -59,10 +66,6 @@ const main = async () => {
   */
 
 };
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 main()
   .then(() => process.exit(0))

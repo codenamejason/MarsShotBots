@@ -180,8 +180,8 @@ function App(props) {
   console.log("📟 Transfer events:",transferEvents)
 
   //track the latest bots minted
-  const [lastestMintedBots, setLatestMintedBots] = useState();
-  console.log("📟 latestBotsMinted:", lastestMintedBots);
+  /* const [lastestMintedBots, setLatestMintedBots] = useState();
+  console.log("📟 latestBotsMinted:", lastestMintedBots); */
 
   
   //
@@ -219,7 +219,7 @@ function App(props) {
     updateYourCollectibles()
   },[ address, yourBalance ])
 
-  useEffect(() => {
+  /* useEffect(() => {
     const getLatestMintedBots = async () => {
       let latestMintedBotsUpdate = [];
 
@@ -245,7 +245,7 @@ function App(props) {
       setLatestMintedBots(latestMintedBotsUpdate);
     }
     getLatestMintedBots();
-  }, [address, yourBalance])
+  }, [address, yourBalance]) */
 
 
   /*
@@ -424,14 +424,14 @@ function App(props) {
 
 
             <div class="">
-            <img class="logo_moonshot sub" src="Layton.png" />
-            <img class="logo_moonshot" src="Danielle.png" />
-            <img class="logo_moonshot sub" src="Elyse.png" />
+            <img class="logo_moonshot sub" src="Melancholy_Cybercrime.png" />
+            <img class="logo_moonshot" src="mandalabot.png" />
+            <img class="logo_moonshot sub" src="Aloof_Database.png" />
             <br/>
             <h1 >Mars-Shot Bots</h1>
 
-            <h2>An ⭐️OMEGA-Rare⭐️ PFP (179 supply)</h2>
-            <h2>Assets Created and ABANDONED 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
+            <h2>A ⭐️SUPER-Rare⭐️ PFP (594 supply)</h2>
+            <h2>Assets Created by ya bois <a href="https://twitter.com/owocki">@owocki</a>, <a href="https://gitcoin.co/octaviaan">@octaviaan</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
             <h2>❤️🛠 Deployed on "x", after an extended rescue mission. </h2>
             <div style={{padding:32}}>
               <Button type={"primary"} onClick={async ()=>{
@@ -447,7 +447,7 @@ function App(props) {
               </div>
               <br/>
               <br/>
-
+{/* 
               {lastestMintedBots && lastestMintedBots.length > 0 ? (
                 <div class="latestBots">
                 
@@ -482,7 +482,7 @@ function App(props) {
             ) : (
               <div>
               </div>
-            )}
+            )} */}
                 <br />
                 <br /> 
               </div>
@@ -492,12 +492,12 @@ function App(props) {
               :
             <div class="colorme2">
 
-            <h4 style={{padding:5}}>Why We Think Mars-ShotBots Rock:</h4>
+            <h4 style={{padding:5}}>Why We Think Mars-Shot-Bots Rock:</h4>
             <br/>
             <br/>
             <ul class="rocks">
               <li>
-               🤖🍠 These are the original 179 placeholders for MSB by MoonshotCollective.
+               🤖🍠 These bots are the first theme-derivative spin-off to MoonShotBots!  
               </li>
               <li>
                🤖👑 Oh the Novelty!
@@ -506,7 +506,7 @@ function App(props) {
                🤖🌱 100% Proceeds Support Public Goods!
               </li>              
               <li>
-               🤖❤️ Hang with your botfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
+               🤖❤️ Hang with your marsfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
               </li>
               
             </ul>
@@ -524,13 +524,13 @@ function App(props) {
             <br/>
             <br/>
             <div class='Testimonial'>
-              <img src="Layton.png" />
-              <h5>Layton (Rescued)</h5>
+              <img src="Aloof_Database.png" />
+              <h5>Acidic Debug</h5>
               <p>01100001 01110101 01110011 01110100 01101001 01101110 00100000 01110111 01101000 01111001 00100000 01100100 01101111</p>
             </div>
             <div class='Testimonial'>
-              <img src="Danielle.png" />
-              <h5>Simpl (Rescued)</h5>
+              <img src="Acidic_Debug.png" />
+              <h5>Simpl</h5>
               <p>bzzz bzzz bzz new fax incoming
 
 kwwaaaaaaaaaaaaa
@@ -540,8 +540,8 @@ eeeeeuuuueeuuueeuuuu **denga denga**
 we made our mistakes, but you didnt have to abandon us :(</p>
             </div>
             <div class='Testimonial'>
-              <img src="Elyse.png" />
-              <h5>Elyse (Rescued)</h5>
+              <img src="Alert_Desktop.png" />
+              <h5>Alert Desktop</h5>
               <p>Beep Boop Bop Bop Moonshot Collective is not associated with my stupid antics Beep Boop Bot Boop Boop Bloop Beep  Boop Boop Bloop Beep </p>
             </div>
 
@@ -556,7 +556,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
             {yourCollectibles && yourCollectibles.length>0 ?
               <div style={{ width:640, margin: "auto", marginTop:32, padding:32 }}>
-               <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖🚀🌕</h4>
+               <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖</h4>
             <br/>
             <br/>
 
@@ -607,7 +607,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               </div>:
 
             <div id="preview">
-              <h4>Give these rescued bots a loving home 🤖🏠❤️</h4>              
+              <h4>Rescue these bots from mars! It hasn't been terraformed yet! 🤖🏠❤️</h4>              
             <br/>
             <br/>
 
@@ -802,7 +802,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               <li>
                  <p>
                  <strong>
-                 🙋‍♂️  Why are there 179 Mars-Shot-Bots available?
+                 🙋‍♂️  Why are there 594 Mars-Shot-Bots available?
                  </strong>
                  <br/>
                  Because Elon said so
@@ -814,7 +814,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♀️ When was this project launched?
                  </strong>
                  <br/>
-                 edit later
+                 10/4/21 after an extensive rescue mission.
                  </p>
               </li>
               <li>
@@ -823,16 +823,16 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️ Why was this project launched?
                  </strong>
                  <br/>
-                 edit these later
+                 Simpl FOMOd cause he was priced out of MSB.
                  </p>
               </li>
               <li>
                  <p>
                  <strong>
-                 🙋‍♀️ What are all the cool kids doing?
+                 🙋‍♀️ How many can I mint?
                  </strong>
                  <br/>
-                 You are welcome to purchase 2 Mars-ShotBots.  Keep one for yourself, and send another to your favorite Builder.    
+                 You are welcome to purchase 5 Mars-Shot Bots!    
                  <br/>
                  <br/>
                  Karma FTW!             </p>
@@ -843,7 +843,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️ How is the price calculated?
                  </strong>
                  <br/>
-                 These PFPs are minted on a bonding curve that increases ~4% each purchase, and starts with a price of 0.0033 ETH.  Here new curvbe!:
+                 These PFPs are minted on a bonding curve that increases ~1.2% each purchase, and starts with a price of 0.0033 ETH.  Here new curvbe!:
                  <br/>
                  <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI29iQh565K6GykQDplsmYM9-84LB7L2dumXBe_7oaoF8lfb3L-4wgzNyur7wRKFhQBPFHLWK5S30z/pubchart?oid=202580104&format=image">
                   <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI29iQh565K6GykQDplsmYM9-84LB7L2dumXBe_7oaoF8lfb3L-4wgzNyur7wRKFhQBPFHLWK5S30z/pubchart?oid=202580104&format=image" class="chart"/>
@@ -854,7 +854,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               <li>
                  <p>
                  <strong>
-                 🙋‍♀️Where does the ETH go when I purchase a Mars-ShotBots?
+                 🙋‍♀️Where does the ETH go when I purchase a Mars-Shot-Bots?
                  </strong>
                  <br/>
                 100% of funds will go to the <a href="https://etherscan.io/address/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6">Gitcoin Grants Multisig</a> to fund public goods on Gitcoin.
@@ -863,14 +863,14 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               <li>
                  <p>
                  <strong>
-                 🙋‍♂️Which Mars-ShotBots are the rarest?
+                 🙋‍♂️Which Mars-Shot Bots are the rarest?
                  </strong>
                  <br/>
-                 1. I don't know!
+                 1. idk yet
                  <br/>
-                 2. I don't know!
+                 2. idk yet
                  <br/>
-                 3. I don't know!
+                 3. idk yet
                  <br/>
                  </p>
               </li>
@@ -898,7 +898,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️I has another question, where can I get in touch?
                  </strong>
                  <br/>
-                 Tweet at me; <a href="https://twitter.com/simpl192">@simpl192</a> 
+                 Tweet at me; <a href="https://twitter.com/nowonderer">@nowonderer</a> 
                  </p>
               </li>
 
