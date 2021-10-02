@@ -428,10 +428,10 @@ function App(props) {
             <img class="logo_moonshot" src="mandalabot.png" />
             <img class="logo_moonshot sub" src="Aloof_Database.png" />
             <br/>
-            <h1 >Mars-Shot Bots</h1>
+            <img class="logo_moonshot sub2" src="rocket1.png" /><h1 >Mars-Shot Bots</h1><img class="logo_moonshot sub2" src="rocket2.png" />
 
             <h2>A ⭐️SUPER-Rare⭐️ PFP (594 supply)</h2>
-            <h2>Assets Created by ya bois <a href="https://twitter.com/owocki">@owocki</a>, <a href="https://gitcoin.co/octaviaan">@octaviaan</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
+            <h2>Assets Created and Abandoned 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a>, <a href="https://gitcoin.co/octaviaan">@octaviaan</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
             <h2>❤️🛠 Deployed on "x", after an extended rescue mission. </h2>
             <div style={{padding:32}}>
               <Button type={"primary"} onClick={async ()=>{
@@ -440,9 +440,8 @@ function App(props) {
               }}>MINT for Ξ{priceToMint && (+ethers.utils.formatEther(priceToMint)).toFixed(4)}</Button>
 
               <div class="publicgoodsgood">
-                <h2>🌱❤️*100% Proceeds To Public Goods❤️🌱</h2>
-                  🦧✊ <strong>Demand more from PFPs! 👇</strong> <br/>
-                 🌱🌱 <strong>100%</strong> of Mars-Shot-Bots Minting Fees go to fund Ethereum Public Goods on Gitcoin Grants 🌱🌱<br/>
+                <h2>❤️*100% Proceeds To Public Goods❤️</h2>
+                 <strong>100%</strong> of Proceeds fund Ethereum Public Goods on Gitcoin Grants<br/>
                  <strong>🦧✊🌱100%🌱✊🦧</strong>
               </div>
               <br/>
@@ -611,185 +610,287 @@ we made our mistakes, but you didnt have to abandon us :(</p>
             <br/>
             <br/>
 
-            <img src="nfts/Adelyn.png" title='Abrupt_Paste'/>
-<img src="nfts/Adler.png" title='Abrupt_Paste'/>
-<img src="nfts/Ahmir.png" title='Abrupt_Paste'/>
-<img src="nfts/Alaya.png" title='Abrupt_Paste'/>
-<img src="nfts/Albert.png" title='Abrupt_Paste'/>
-<img src="nfts/Alden.png" title='Abrupt_Paste'/>
-<img src="nfts/Alessandro.png" title='Abrupt_Paste'/>
-<img src="nfts/Alex.png" title='Abrupt_Paste'/>
-<img src="nfts/Alexis.png" title='Abrupt_Paste'/>
-<img src="nfts/Alia.png" title='Abrupt_Paste'/>
-<img src="nfts/Alyssa.png" title='Abrupt_Paste'/>
-<img src="nfts/Amora.png" title='Abrupt_Paste'/>
-<img src="nfts/Anakin.png" title='Abrupt_Paste'/>
-<img src="nfts/Angelina.png" title='Abrupt_Paste'/>
-<img src="nfts/Annabella.png" title='Abrupt_Paste'/>
-<img src="nfts/Ariel.png" title='Abrupt_Paste'/>
-<img src="nfts/Ariyah.png" title='Abrupt_Paste'/>
-<img src="nfts/Arthur.png" title='Abrupt_Paste'/>
-<img src="nfts/Axl.png" title='Abrupt_Paste'/>
-<img src="nfts/Axton.png" title='Abrupt_Paste'/>
-<img src="nfts/Belen.png" title='Abrupt_Paste'/>
-<img src="nfts/Braden.png" title='Abrupt_Paste'/>
-<img src="nfts/Bradley.png" title='Abrupt_Paste'/>
-<img src="nfts/Brecken.png" title='Abrupt_Paste'/>
-<img src="nfts/Brinley.png" title='Abrupt_Paste'/>
-<img src="nfts/Brynlee.png" title='Abrupt_Paste'/>
-<img src="nfts/Cairo.png" title='Abrupt_Paste'/>
-<img src="nfts/Cal.png" title='Abrupt_Paste'/>
-<img src="nfts/Callan.png" title='Abrupt_Paste'/>
-<img src="nfts/Cameron.png" title='Abrupt_Paste'/>
-<img src="nfts/Cannon.png" title='Abrupt_Paste'/>
-<img src="nfts/Carlos.png" title='Abrupt_Paste'/>
-<img src="nfts/Carly.png" title='Abrupt_Paste'/>
-<img src="nfts/Case.png" title='Abrupt_Paste'/>
-<img src="nfts/Casen.png" title='Abrupt_Paste'/>
-<img src="nfts/Cayson.png" title='Abrupt_Paste'/>
-<img src="nfts/Cesar.png" title='Abrupt_Paste'/>
-<img src="nfts/Charlie.png" title='Abrupt_Paste'/>
-<img src="nfts/Claire.png" title='Abrupt_Paste'/>
-<img src="nfts/Clark.png" title='Abrupt_Paste'/>
-<img src="nfts/Clementine.png" title='Abrupt_Paste'/>
-<img src="nfts/Coen.png" title='Abrupt_Paste'/>
-<img src="nfts/Corey.png" title='Abrupt_Paste'/>
-<img src="nfts/Dakari.png" title='Abrupt_Paste'/>
-<img src="nfts/Dallas.png" title='Abrupt_Paste'/>
-<img src="nfts/Daniel.png" title='Abrupt_Paste'/>
-<img src="nfts/Danielle.png" title='Abrupt_Paste'/>
-<img src="nfts/Danny.png" title='Abrupt_Paste'/>
-<img src="nfts/Darwin.png" title='Abrupt_Paste'/>
-<img src="nfts/Davis.png" title='Abrupt_Paste'/>
-<img src="nfts/Daxton.png" title='Abrupt_Paste'/>
-<img src="nfts/Della.png" title='Abrupt_Paste'/>
-<img src="nfts/Dominic.png" title='Abrupt_Paste'/>
-<img src="nfts/Donald.png" title='Abrupt_Paste'/>
-<img src="nfts/Dorian.png" title='Abrupt_Paste'/>
-<img src="nfts/Dream.png" title='Abrupt_Paste'/>
-<img src="nfts/Edwin.png" title='Abrupt_Paste'/>
-<img src="nfts/Elaine.png" title='Abrupt_Paste'/>
-<img src="nfts/Eliana.png" title='Abrupt_Paste'/>
-<img src="nfts/Elianna.png" title='Abrupt_Paste'/>
-<img src="nfts/Elizabeth.png" title='Abrupt_Paste'/>
-<img src="nfts/Elliana.png" title='Abrupt_Paste'/>
-<img src="nfts/Ellianna.png" title='Abrupt_Paste'/>
-<img src="nfts/Elyse.png" title='Abrupt_Paste'/>
-<img src="nfts/Evan.png" title='Abrupt_Paste'/>
-<img src="nfts/Evangeline.png" title='Abrupt_Paste'/>
-<img src="nfts/Eve.png" title='Abrupt_Paste'/>
-<img src="nfts/Everett.png" title='Abrupt_Paste'/>
-<img src="nfts/Evie.png" title='Abrupt_Paste'/>
-<img src="nfts/Fallon.png" title='Abrupt_Paste'/>
-<img src="nfts/Finley.png" title='Abrupt_Paste'/>
-<img src="nfts/Gary.png" title='Abrupt_Paste'/>
-<img src="nfts/Georgia.png" title='Abrupt_Paste'/>
-<img src="nfts/Grace.png" title='Abrupt_Paste'/>
-<img src="nfts/Halo.png" title='Abrupt_Paste'/>
-<img src="nfts/Hana.png" title='Abrupt_Paste'/>
-<img src="nfts/Hanna.png" title='Abrupt_Paste'/>
-<img src="nfts/Hannah.png" title='Abrupt_Paste'/>
-<img src="nfts/Harlow.png" title='Abrupt_Paste'/>
-<img src="nfts/Harmony.png" title='Abrupt_Paste'/>
-<img src="nfts/Hope.png" title='Abrupt_Paste'/>
-<img src="nfts/Ian.png" title='Abrupt_Paste'/>
-<img src="nfts/Ibrahim.png" title='Abrupt_Paste'/>
-<img src="nfts/Indie.png" title='Abrupt_Paste'/>
-<img src="nfts/Israel.png" title='Abrupt_Paste'/>
-<img src="nfts/Izaiah.png" title='Abrupt_Paste'/>
-<img src="nfts/Jake.png" title='Abrupt_Paste'/>
-<img src="nfts/Jalen.png" title='Abrupt_Paste'/>
-<img src="nfts/Jase.png" title='Abrupt_Paste'/>
-<img src="nfts/Jaxtyn.png" title='Abrupt_Paste'/>
-<img src="nfts/Jay.png" title='Abrupt_Paste'/>
-<img src="nfts/Jeffrey.png" title='Abrupt_Paste'/>
-<img src="nfts/Jianna.png" title='Abrupt_Paste'/>
-<img src="nfts/Jude.png" title='Abrupt_Paste'/>
-<img src="nfts/Judith.png" title='Abrupt_Paste'/>
-<img src="nfts/Julian.png" title='Abrupt_Paste'/>
-<img src="nfts/Julio.png" title='Abrupt_Paste'/>
-<img src="nfts/Kade.png" title='Abrupt_Paste'/>
-<img src="nfts/Kairi.png" title='Abrupt_Paste'/>
-<img src="nfts/Kamari.png" title='Abrupt_Paste'/>
-<img src="nfts/Kareem.png" title='Abrupt_Paste'/>
-<img src="nfts/Kash.png" title='Abrupt_Paste'/>
-<img src="nfts/Kashton.png" title='Abrupt_Paste'/>
-<img src="nfts/Kayson.png" title='Abrupt_Paste'/>
-<img src="nfts/Khaleesi.png" title='Abrupt_Paste'/>
-<img src="nfts/Killian.png" title='Abrupt_Paste'/>
-<img src="nfts/Kolton.png" title='Abrupt_Paste'/>
-<img src="nfts/Kora.png" title='Abrupt_Paste'/>
-<img src="nfts/Lainey.png" title='Abrupt_Paste'/>
-<img src="nfts/Laurel.png" title='Abrupt_Paste'/>
-<img src="nfts/Layton.png" title='Abrupt_Paste'/>
-<img src="nfts/Leandro.png" title='Abrupt_Paste'/>
-<img src="nfts/Leonard.png" title='Abrupt_Paste'/>
-<img src="nfts/Lexie.png" title='Abrupt_Paste'/>
-<img src="nfts/Liana.png" title='Abrupt_Paste'/>
-<img src="nfts/Liliana.png" title='Abrupt_Paste'/>
-<img src="nfts/Linda.png" title='Abrupt_Paste'/>
-<img src="nfts/Liv.png" title='Abrupt_Paste'/>
-<img src="nfts/Lucca.png" title='Abrupt_Paste'/>
-<img src="nfts/Luciana.png" title='Abrupt_Paste'/>
-<img src="nfts/Madisyn.png" title='Abrupt_Paste'/>
-<img src="nfts/Makenna.png" title='Abrupt_Paste'/>
-<img src="nfts/Malaya.png" title='Abrupt_Paste'/>
-<img src="nfts/Marcos.png" title='Abrupt_Paste'/>
-<img src="nfts/Marianna.png" title='Abrupt_Paste'/>
-<img src="nfts/Marleigh.png" title='Abrupt_Paste'/>
-<img src="nfts/Mateo.png" title='Abrupt_Paste'/>
-<img src="nfts/Maxwell.png" title='Abrupt_Paste'/>
-<img src="nfts/Mckinley.png" title='Abrupt_Paste'/>
-<img src="nfts/Melissa.png" title='Abrupt_Paste'/>
-<img src="nfts/Meredith.png" title='Abrupt_Paste'/>
-<img src="nfts/Michael.png" title='Abrupt_Paste'/>
-<img src="nfts/Milana.png" title='Abrupt_Paste'/>
-<img src="nfts/Mohammad.png" title='Abrupt_Paste'/>
-<img src="nfts/Molly.png" title='Abrupt_Paste'/>
-<img src="nfts/Myles.png" title='Abrupt_Paste'/>
-<img src="nfts/Nathanael.png" title='Abrupt_Paste'/>
-<img src="nfts/Nellie.png" title='Abrupt_Paste'/>
-<img src="nfts/Nicholas.png" title='Abrupt_Paste'/>
-<img src="nfts/Niko.png" title='Abrupt_Paste'/>
-<img src="nfts/Oaklyn.png" title='Abrupt_Paste'/>
-<img src="nfts/Oaklynn.png" title='Abrupt_Paste'/>
-<img src="nfts/Paisley.png" title='Abrupt_Paste'/>
-<img src="nfts/Parker.png" title='Abrupt_Paste'/>
-<img src="nfts/Paul.png" title='Abrupt_Paste'/>
-<img src="nfts/Penelope.png" title='Abrupt_Paste'/>
-<img src="nfts/Peter.png" title='Abrupt_Paste'/>
-<img src="nfts/Presley.png" title='Abrupt_Paste'/>
-<img src="nfts/Quinn.png" title='Abrupt_Paste'/>
-<img src="nfts/Quinton.png" title='Abrupt_Paste'/>
-<img src="nfts/Raven.png" title='Abrupt_Paste'/>
-<img src="nfts/Rhea.png" title='Abrupt_Paste'/>
-<img src="nfts/Rhett.png" title='Abrupt_Paste'/>
-<img src="nfts/Rhys.png" title='Abrupt_Paste'/>
-<img src="nfts/Rosemary.png" title='Abrupt_Paste'/>
-<img src="nfts/Royal.png" title='Abrupt_Paste'/>
-<img src="nfts/Ryan.png" title='Abrupt_Paste'/>
-<img src="nfts/Ryann.png" title='Abrupt_Paste'/>
-<img src="nfts/Saoirse.png" title='Abrupt_Paste'/>
-<img src="nfts/Sincere.png" title='Abrupt_Paste'/>
-<img src="nfts/Skye.png" title='Abrupt_Paste'/>
-<img src="nfts/Solomon.png" title='Abrupt_Paste'/>
-<img src="nfts/Steven.png" title='Abrupt_Paste'/>
-<img src="nfts/Talon.png" title='Abrupt_Paste'/>
-<img src="nfts/Taylor.png" title='Abrupt_Paste'/>
-<img src="nfts/Tessa.png" title='Abrupt_Paste'/>
-<img src="nfts/Theo.png" title='Abrupt_Paste'/>
-<img src="nfts/Tomas.png" title='Abrupt_Paste'/>
-<img src="nfts/Ty.png" title='Abrupt_Paste'/>
-<img src="nfts/Tyler.png" title='Abrupt_Paste'/>
-<img src="nfts/Van.png" title='Abrupt_Paste'/>
-<img src="nfts/Walter.png" title='Abrupt_Paste'/>
-<img src="nfts/Watson.png" title='Abrupt_Paste'/>
-<img src="nfts/Westin.png" title='Abrupt_Paste'/>
-<img src="nfts/Ximena.png" title='Abrupt_Paste'/>
-<img src="nfts/Yousef.png" title='Abrupt_Paste'/>
-<img src="nfts/Zainab.png" title='Abrupt_Paste'/>
-<img src="nfts/Zelda.png" title='Abrupt_Paste'/>
-<img src="nfts/Zola.png" title='Abrupt_Paste'/>
+<img src="nfts/Glorious_Page.png" title='Abrupt_Paste'/>
+<img src="nfts/Irate_Trojan_Horse.png" title='Abrupt_Paste'/>
+<img src="nfts/Fluttering_Algorithm.png" title='Abrupt_Paste'/>
+<img src="nfts/Fluttering_Cypherpunk.png" title='Abrupt_Paste'/>
+<img src="nfts/Scrawny_Bug.png" title='Abrupt_Paste'/>
+<img src="nfts/Colossal_Macintosh.png" title='Abrupt_Paste'/>
+<img src="nfts/Clumsy_Cd-rom.png" title='Abrupt_Paste'/>
+<img src="nfts/Spicy_Graphics.png" title='Abrupt_Paste'/>
+<img src="nfts/Depressed_Malware.png" title='Abrupt_Paste'/>
+<img src="nfts/Ashamed_Disk.png" title='Abrupt_Paste'/>
+<img src="nfts/Acidic_Debug.png" title='Abrupt_Paste'/>
+<img src="nfts/Immense_Cypherpunk.png" title='Abrupt_Paste'/>
+<img src="nfts/Charming_Dot.png" title='Abrupt_Paste'/>
+<img src="nfts/Tense_Open_Source.png" title='Abrupt_Paste'/>
+<img src="nfts/Slimy_Protocol.png" title='Abrupt_Paste'/>
+<img src="nfts/Pleasant_Wireless.png" title='Abrupt_Paste'/>
+<img src="nfts/Frustrating_Hyperlink.png" title='Abrupt_Paste'/>
+<img src="nfts/Jolly_Clip_Art.png" title='Abrupt_Paste'/>
+<img src="nfts/Lively_Scroll.png" title='Abrupt_Paste'/>
+<img src="nfts/Fancy_Configure.png" title='Abrupt_Paste'/>
+<img src="nfts/Gritty_Screen.png" title='Abrupt_Paste'/>
+<img src="nfts/Magnificent_Status_Bar.png" title='Abrupt_Paste'/>
+<img src="nfts/Floppy_Bug.png" title='Abrupt_Paste'/>
+<img src="nfts/Annoyed_Table.png" title='Abrupt_Paste'/>
+<img src="nfts/Frightened_Node.png" title='Abrupt_Paste'/>
+<img src="nfts/Spicy_Path.png" title='Abrupt_Paste'/>
+<img src="nfts/Cruel_Memory.png" title='Abrupt_Paste'/>
+<img src="nfts/Extensive_Social_Networking.png" title='Abrupt_Paste'/>
+<img src="nfts/Helpful_Multimedia.png" title='Abrupt_Paste'/>
+<img src="nfts/Troubled_Screen.png" title='Abrupt_Paste'/>
+<img src="nfts/Spotless_Workstation.png" title='Abrupt_Paste'/>
+<img src="nfts/Blushing_Firewall.png" title='Abrupt_Paste'/>
+<img src="nfts/Steady_File.png" title='Abrupt_Paste'/>
+<img src="nfts/Disgusted_Password.png" title='Abrupt_Paste'/>
+<img src="nfts/Gaudy_Typeface.png" title='Abrupt_Paste'/>
+<img src="nfts/Greasy_Hypertext.png" title='Abrupt_Paste'/>
+<img src="nfts/Grubby_Spyware.png" title='Abrupt_Paste'/>
+<img src="nfts/Reassured_Net.png" title='Abrupt_Paste'/>
+<img src="nfts/Energetic_Joystick.png" title='Abrupt_Paste'/>
+<img src="nfts/Contemplative_Clip_Board.png" title='Abrupt_Paste'/>
+<img src="nfts/Vivacious_Log_Out.png" title='Abrupt_Paste'/>
+<img src="nfts/Old-fashioned_Icon.png" title='Abrupt_Paste'/>
+<img src="nfts/Corny_Log_Out.png" title='Abrupt_Paste'/>
+<img src="nfts/Whopping_Emoticon.png" title='Abrupt_Paste'/>
+<img src="nfts/Chubby_Bit.png" title='Abrupt_Paste'/>
+<img src="nfts/Happy_Cd.png" title='Abrupt_Paste'/>
+<img src="nfts/Apprehensive_Virtual.png" title='Abrupt_Paste'/>
+<img src="nfts/Gigantic_Script.png" title='Abrupt_Paste'/>
+<img src="nfts/Victorious_Integer.png" title='Abrupt_Paste'/>
+<img src="nfts/Reassured_Kernel.png" title='Abrupt_Paste'/>
+<img src="nfts/Flat_Template.png" title='Abrupt_Paste'/>
+<img src="nfts/Friendly_Keyboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Zippy_Online.png" title='Abrupt_Paste'/>
+<img src="nfts/Frightened_File.png" title='Abrupt_Paste'/>
+<img src="nfts/Zealous_Shift_Key.png" title='Abrupt_Paste'/>
+<img src="nfts/Joyous_Hyperlink.png" title='Abrupt_Paste'/>
+<img src="nfts/Happy_Www.png" title='Abrupt_Paste'/>
+<img src="nfts/Lazy_Cd.png" title='Abrupt_Paste'/>
+<img src="nfts/Nutritious_Scroll_Bar.png" title='Abrupt_Paste'/>
+<img src="nfts/Petite_Firmware.png" title='Abrupt_Paste'/>
+<img src="nfts/Stale_Multimedia.png" title='Abrupt_Paste'/>
+<img src="nfts/Jealous_Clip_Art 2.png" title='Abrupt_Paste'/>
+<img src="nfts/Lackadaisical_Utility.png" title='Abrupt_Paste'/>
+<img src="nfts/Huge_Encryption.png" title='Abrupt_Paste'/>
+<img src="nfts/Excited_Operating_System.png" title='Abrupt_Paste'/>
+<img src="nfts/Ecstatic_Logic.png" title='Abrupt_Paste'/>
+<img src="nfts/Envious_Client.png" title='Abrupt_Paste'/>
+<img src="nfts/Mortified_Graphics.png" title='Abrupt_Paste'/>
+<img src="nfts/Joyous_Widget.png" title='Abrupt_Paste'/>
+<img src="nfts/Maniacal_Bitmap.png" title='Abrupt_Paste'/>
+<img src="nfts/Lively_Boot.png" title='Abrupt_Paste'/>
+<img src="nfts/Foolish_Wiki.png" title='Abrupt_Paste'/>
+<img src="nfts/Irate_Bitmap.png" title='Abrupt_Paste'/>
+<img src="nfts/Massive_Iteration.png" title='Abrupt_Paste'/>
+<img src="nfts/Frothy_Kernel.png" title='Abrupt_Paste'/>
+<img src="nfts/Grumpy_Path.png" title='Abrupt_Paste'/>
+<img src="nfts/Hollow_Java.png" title='Abrupt_Paste'/>
+<img src="nfts/Gritty_Dashboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Depraved_Net.png" title='Abrupt_Paste'/>
+<img src="nfts/Tart_Social_Networking.png" title='Abrupt_Paste'/>
+<img src="nfts/Tasty_Document.png" title='Abrupt_Paste'/>
+<img src="nfts/Crooked_Worm.png" title='Abrupt_Paste'/>
+<img src="nfts/Ideal_Logic.png" title='Abrupt_Paste'/>
+<img src="nfts/Giddy_Storage.png" title='Abrupt_Paste'/>
+<img src="nfts/Timely_Host.png" title='Abrupt_Paste'/>
+<img src="nfts/Frantic_Online.png" title='Abrupt_Paste'/>
+<img src="nfts/Intrigued_Wireless.png" title='Abrupt_Paste'/>
+<img src="nfts/Timely_Queue.png" title='Abrupt_Paste'/>
+<img src="nfts/Drained_Format.png" title='Abrupt_Paste'/>
+<img src="nfts/Itchy_Path.png" title='Abrupt_Paste'/>
+<img src="nfts/Rough_Ram.png" title='Abrupt_Paste'/>
+<img src="nfts/Outrageous_Inbox.png" title='Abrupt_Paste'/>
+<img src="nfts/Whimsical_Delete.png" title='Abrupt_Paste'/>
+<img src="nfts/Helpless_Linux.png" title='Abrupt_Paste'/>
+<img src="nfts/Weary_Process.png" title='Abrupt_Paste'/>
+<img src="nfts/Fuzzy_Upload.png" title='Abrupt_Paste'/>
+<img src="nfts/Colorful_Platform.png" title='Abrupt_Paste'/>
+<img src="nfts/Outrageous_Captcha.png" title='Abrupt_Paste'/>
+<img src="nfts/Round_Real-time.png" title='Abrupt_Paste'/>
+<img src="nfts/Helpless_Bite.png" title='Abrupt_Paste'/>
+<img src="nfts/Quizzical_Script.png" title='Abrupt_Paste'/>
+<img src="nfts/Graceful_Web.png" title='Abrupt_Paste'/>
+<img src="nfts/Crooked_Dashboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Immense_Reboot.png" title='Abrupt_Paste'/>
+<img src="nfts/Frantic_Workstation.png" title='Abrupt_Paste'/>
+<img src="nfts/Appetizing_Media.png" title='Abrupt_Paste'/>
+<img src="nfts/Vivacious_Xml.png" title='Abrupt_Paste'/>
+<img src="nfts/Terrible_Table.png" title='Abrupt_Paste'/>
+<img src="nfts/Uneven_Dvd.png" title='Abrupt_Paste'/>
+<img src="nfts/Clean_Dynamic.png" title='Abrupt_Paste'/>
+<img src="nfts/Grumpy_Url.png" title='Abrupt_Paste'/>
+<img src="nfts/Impressionable_Desktop.png" title='Abrupt_Paste'/>
+<img src="nfts/Fierce_Protocol.png" title='Abrupt_Paste'/>
+<img src="nfts/Alert_Desktop.png" title='Abrupt_Paste'/>
+<img src="nfts/Plain_Email.png" title='Abrupt_Paste'/>
+<img src="nfts/Acidic_Programmer.png" title='Abrupt_Paste'/>
+<img src="nfts/Small_Configure.png" title='Abrupt_Paste'/>
+<img src="nfts/Ludicrous_Storage.png" title='Abrupt_Paste'/>
+<img src="nfts/Giddy_Java.png" title='Abrupt_Paste'/>
+<img src="nfts/Witty_Window.png" title='Abrupt_Paste'/>
+<img src="nfts/Gigantic_Emoticon.png" title='Abrupt_Paste'/>
+<img src="nfts/Emaciated_Log_Out.png" title='Abrupt_Paste'/>
+<img src="nfts/Obnoxious_Host.png" title='Abrupt_Paste'/>
+<img src="nfts/Agitated_App.png" title='Abrupt_Paste'/>
+<img src="nfts/Bland_Network.png" title='Abrupt_Paste'/>
+<img src="nfts/Prickly_Spam.png" title='Abrupt_Paste'/>
+<img src="nfts/Sparkling_Exabyte.png" title='Abrupt_Paste'/>
+<img src="nfts/Jumpy_Trojan_Horse.png" title='Abrupt_Paste'/>
+<img src="nfts/Silky_Document.png" title='Abrupt_Paste'/>
+<img src="nfts/Convoluted_Xml.png" title='Abrupt_Paste'/>
+<img src="nfts/Ripe_Print.png" title='Abrupt_Paste'/>
+<img src="nfts/Fresh_Web_Host.png" title='Abrupt_Paste'/>
+<img src="nfts/Scary_Computer.png" title='Abrupt_Paste'/>
+<img src="nfts/Disturbed_Keyboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Uptight_Graphics.png" title='Abrupt_Paste'/>
+<img src="nfts/Average_Debug.png" title='Abrupt_Paste'/>
+<img src="nfts/Filthy_Compress.png" title='Abrupt_Paste'/>
+<img src="nfts/Smug_Upload.png" title='Abrupt_Paste'/>
+<img src="nfts/Stout_Gigabyte.png" title='Abrupt_Paste'/>
+<img src="nfts/Scattered_Dvd.png" title='Abrupt_Paste'/>
+<img src="nfts/Ghastly_Analog.png" title='Abrupt_Paste'/>
+<img src="nfts/Odd_Scanner.png" title='Abrupt_Paste'/>
+<img src="nfts/Swanky_Drag.png" title='Abrupt_Paste'/>
+<img src="nfts/Disturbed_Hyperlink.png" title='Abrupt_Paste'/>
+<img src="nfts/Foolish_Keyword.png" title='Abrupt_Paste'/>
+<img src="nfts/Cumbersome_Bus.png" title='Abrupt_Paste'/>
+<img src="nfts/Scary_Scan.png" title='Abrupt_Paste'/>
+<img src="nfts/Batty_Cookie.png" title='Abrupt_Paste'/>
+<img src="nfts/Lucky_Memory.png" title='Abrupt_Paste'/>
+<img src="nfts/Courageous_Program.png" title='Abrupt_Paste'/>
+<img src="nfts/Successful_Screen.png" title='Abrupt_Paste'/>
+<img src="nfts/Rough_Utility.png" title='Abrupt_Paste'/>
+<img src="nfts/Stout_App.png" title='Abrupt_Paste'/>
+<img src="nfts/Substantial_Algorithm.png" title='Abrupt_Paste'/>
+<img src="nfts/Amiable_Queue.png" title='Abrupt_Paste'/>
+<img src="nfts/Smoggy_Caps_Lock.png" title='Abrupt_Paste'/>
+<img src="nfts/Gleaming_Cd.png" title='Abrupt_Paste'/>
+<img src="nfts/Nonchalant_Hacker.png" title='Abrupt_Paste'/>
+<img src="nfts/Bitter_Dot_matrix.png" title='Abrupt_Paste'/>
+<img src="nfts/Odd_Flowchart.png" title='Abrupt_Paste'/>
+<img src="nfts/Little_Shareware.png" title='Abrupt_Paste'/>
+<img src="nfts/Jealous_Keyboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Drained_Key.png" title='Abrupt_Paste'/>
+<img src="nfts/Exasperated_Login.png" title='Abrupt_Paste'/>
+<img src="nfts/Miniature_Tag.png" title='Abrupt_Paste'/>
+<img src="nfts/Tasty_Login.png" title='Abrupt_Paste'/>
+<img src="nfts/Distinct_User.png" title='Abrupt_Paste'/>
+<img src="nfts/Motionless_Email.png" title='Abrupt_Paste'/>
+<img src="nfts/Sour_Privacy.png" title='Abrupt_Paste'/>
+<img src="nfts/Zealous_Notebook_Computer.png" title='Abrupt_Paste'/>
+<img src="nfts/Cheerful_Command.png" title='Abrupt_Paste'/>
+<img src="nfts/Selfish_Word_Processor.png" title='Abrupt_Paste'/>
+<img src="nfts/Slippery_Dot.png" title='Abrupt_Paste'/>
+<img src="nfts/Soggy_Virtual_Memory.png" title='Abrupt_Paste'/>
+<img src="nfts/Cloudy_Macintosh.png" title='Abrupt_Paste'/>
+<img src="nfts/Ashamed_Website.png" title='Abrupt_Paste'/>
+<img src="nfts/Biting_Encryption.png" title='Abrupt_Paste'/>
+<img src="nfts/Fantastic_Screenshot.png" title='Abrupt_Paste'/>
+<img src="nfts/Clear_Pop-up.png" title='Abrupt_Paste'/>
+<img src="nfts/Strong_Flash.png" title='Abrupt_Paste'/>
+<img src="nfts/Macho_Domain_Name.png" title='Abrupt_Paste'/>
+<img src="nfts/Gleaming_Dns_.png" title='Abrupt_Paste'/>
+<img src="nfts/Puny_Web.png" title='Abrupt_Paste'/>
+<img src="nfts/Precious_Software.png" title='Abrupt_Paste'/>
+<img src="nfts/Friendly_Dvd.png" title='Abrupt_Paste'/>
+<img src="nfts/Rotten_Document.png" title='Abrupt_Paste'/>
+<img src="nfts/Horrific_Frame.png" title='Abrupt_Paste'/>
+<img src="nfts/Comfortable_Encryption.png" title='Abrupt_Paste'/>
+<img src="nfts/Victorious_Reboot.png" title='Abrupt_Paste'/>
+<img src="nfts/Homely_Multimedia.png" title='Abrupt_Paste'/>
+<img src="nfts/Healthy_Virtual.png" title='Abrupt_Paste'/>
+<img src="nfts/Tricky_Integer.png" title='Abrupt_Paste'/>
+<img src="nfts/Smoggy_Monitor.png" title='Abrupt_Paste'/>
+<img src="nfts/Miniature_File.png" title='Abrupt_Paste'/>
+<img src="nfts/Smooth_Buffer.png" title='Abrupt_Paste'/>
+<img src="nfts/Oblivious_Network.png" title='Abrupt_Paste'/>
+<img src="nfts/Helpful_Domain.png" title='Abrupt_Paste'/>
+<img src="nfts/Glamorous_Frame.png" title='Abrupt_Paste'/>
+<img src="nfts/Superficial_Lurking.png" title='Abrupt_Paste'/>
+<img src="nfts/Graceful_Motherboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Fluttering_Virtual.png" title='Abrupt_Paste'/>
+<img src="nfts/Muddy_Modem.png" title='Abrupt_Paste'/>
+<img src="nfts/Grieving_Delete.png" title='Abrupt_Paste'/>
+<img src="nfts/Condemned_Script.png" title='Abrupt_Paste'/>
+<img src="nfts/Deep_Keyboard.png" title='Abrupt_Paste'/>
+<img src="nfts/Happy_Operating_System.png" title='Abrupt_Paste'/>
+<img src="nfts/Cynical_Virtual_Memory.png" title='Abrupt_Paste'/>
+<img src="nfts/Hollow_Pop-up.png" title='Abrupt_Paste'/>
+<img src="nfts/Adorable_Unix.png" title='Abrupt_Paste'/>
+<img src="nfts/Gorgeous_Flash.png" title='Abrupt_Paste'/>
+<img src="nfts/Joyous_Storage.png" title='Abrupt_Paste'/>
+<img src="nfts/Minute_Process.png" title='Abrupt_Paste'/>
+<img src="nfts/Corny_Data.png" title='Abrupt_Paste'/>
+<img src="nfts/Shiny_Podcast.png" title='Abrupt_Paste'/>
+<img src="nfts/Scant_Array.png" title='Abrupt_Paste'/>
+<img src="nfts/Skinny_Buffer.png" title='Abrupt_Paste'/>
+<img src="nfts/Delicious_Dvd.png" title='Abrupt_Paste'/>
+<img src="nfts/Wonderful_Command.png" title='Abrupt_Paste'/>
+<img src="nfts/Disgusted_Frame.png" title='Abrupt_Paste'/>
+<img src="nfts/Slimy_Backup.png" title='Abrupt_Paste'/>
+<img src="nfts/Fuzzy_Desktop.png" title='Abrupt_Paste'/>
+<img src="nfts/Tender_Byte.png" title='Abrupt_Paste'/>
+<img src="nfts/Depraved_Cache.png" title='Abrupt_Paste'/>
+<img src="nfts/Hurt_Www.png" title='Abrupt_Paste'/>
+<img src="nfts/Witty_Gigabyte.png" title='Abrupt_Paste'/>
+<img src="nfts/Nasty_Array.png" title='Abrupt_Paste'/>
+<img src="nfts/Spotless_Net.png" title='Abrupt_Paste'/>
+<img src="nfts/Enthusiastic_Network.png" title='Abrupt_Paste'/>
+<img src="nfts/Smiling_Folder.png" title='Abrupt_Paste'/>
+<img src="nfts/Antsy_Security.png" title='Abrupt_Paste'/>
+<img src="nfts/Perfect_Router.png" title='Abrupt_Paste'/>
+<img src="nfts/Tight_Integer.png" title='Abrupt_Paste'/>
+<img src="nfts/Cheeky_User.png" title='Abrupt_Paste'/>
+<img src="nfts/Dangerous_Cookie.png" title='Abrupt_Paste'/>
+<img src="nfts/Ideal_Binary.png" title='Abrupt_Paste'/>
+<img src="nfts/Whimsical_Portal.png" title='Abrupt_Paste'/>
+<img src="nfts/Unsightly_Computer.png" title='Abrupt_Paste'/>
+<img src="nfts/Solid_Qwerty.png" title='Abrupt_Paste'/>
+<img src="nfts/High_Cybercrime.png" title='Abrupt_Paste'/>
+<img src="nfts/High_Plug-in.png" title='Abrupt_Paste'/>
+<img src="nfts/Vast_Caps_Lock.png" title='Abrupt_Paste'/>
+<img src="nfts/Selfish_Dns_.png" title='Abrupt_Paste'/>
+<img src="nfts/Drab_Command.png" title='Abrupt_Paste'/>
+<img src="nfts/Grumpy_Drag.png" title='Abrupt_Paste'/>
+<img src="nfts/Gorgeous_Shift_Key.png" title='Abrupt_Paste'/>
+<img src="nfts/Exhilarated_Snapshot.png" title='Abrupt_Paste'/>
+<img src="nfts/Minute_Www.png" title='Abrupt_Paste'/>
+<img src="nfts/Irritable_Screenshot.png" title='Abrupt_Paste'/>
+<img src="nfts/Soggy_Security.png" title='Abrupt_Paste'/>
+<img src="nfts/Decayed_Utility.png" title='Abrupt_Paste'/>
+<img src="nfts/Cynical_Screenshot.png" title='Abrupt_Paste'/>
+<img src="nfts/Distraught_Cyberspace.png" title='Abrupt_Paste'/>
+<img src="nfts/Zany_Runtime.png" title='Abrupt_Paste'/>
+<img src="nfts/Loose_App.png" title='Abrupt_Paste'/>
+<img src="nfts/Jittery_Runtime.png" title='Abrupt_Paste'/>
+<img src="nfts/Smug_Graphics.png" title='Abrupt_Paste'/>
+<img src="nfts/Hollow_Domain_Name.png" title='Abrupt_Paste'/>
+<img src="nfts/Envious_Malware.png" title='Abrupt_Paste'/>
+<img src="nfts/Gleaming_Program.png" title='Abrupt_Paste'/>
+<img src="nfts/Encouraging_Algorithm.png" title='Abrupt_Paste'/>
+<img src="nfts/Combative_Internet.png" title='Abrupt_Paste'/>
+<img src="nfts/Superficial_Open_Source.png" title='Abrupt_Paste'/>
+<img src="nfts/Intrigued_Save.png" title='Abrupt_Paste'/>
+<img src="nfts/Strange_Scroll_Bar.png" title='Abrupt_Paste'/>
+<img src="nfts/Unsightly_Mainframe.png" title='Abrupt_Paste'/>
+<img src="nfts/Lovely_Linux.png" title='Abrupt_Paste'/>
+<img src="nfts/Trite_Option.png" title='Abrupt_Paste'/>
+<img src="nfts/Greasy_Text_Editor.png" title='Abrupt_Paste'/>
+<img src="nfts/Melancholy_Decompress.png" title='Abrupt_Paste'/>
+<img src="nfts/Flat_Bite.png" title='Abrupt_Paste'/>
+<img src="nfts/Beefy_Html.png" title='Abrupt_Paste'/>
+<img src="nfts/Clear_Algorithm.png" title='Abrupt_Paste'/>
+<img src="nfts/Small_Flaming.png" title='Abrupt_Paste'/>
+<img src="nfts/Condescending_Thread.png" title='Abrupt_Paste'/>
+<img src="nfts/Distressed_Flaming.png" title='Abrupt_Paste'/>
+<img src="nfts/Hungry_Modem.png" title='Abrupt_Paste'/>
+<img src="nfts/Zippy_Screen.png" title='Abrupt_Paste'/>
+<img src="nfts/Friendly_Spam.png" title='Abrupt_Paste'/>
+<img src="nfts/Itchy_Screen.png" title='Abrupt_Paste'/>
+<img src="nfts/Little_Queue.png" title='Abrupt_Paste'/>
+<img src="nfts/Kind_Scroll.png" title='Abrupt_Paste'/>
  </div>}
 
 
@@ -866,11 +967,11 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                  🙋‍♂️Which Mars-Shot Bots are the rarest?
                  </strong>
                  <br/>
-                 1. idk yet
+                 1. Mandala Bots
                  <br/>
-                 2. idk yet
+                 2. Dino Bots
                  <br/>
-                 3. idk yet
+                 3. Family portraits 
                  <br/>
                  </p>
               </li>
@@ -916,7 +1017,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
               |
               <a style={{padding:8}} href="https://moonshotcollective.space">Moonshot Collective</a>
               |
-              Art by <a style={{padding:8}} href="https://Gitcoin.co/theCydonian">@theCydonian</a>/<a style={{padding:8}} href="https://Gitcoin.co/nasehim7">@nasehim7</a>
+              Art by <a style={{padding:8}} href="https://Gitcoin.co/theCydonian">@theCydonian</a>/<a style={{padding:8}} href="https://Gitcoin.co/nowonderer">@nowonderer</a><a style={{padding:8}} href="https://twitter.com/Ruth_chapa">@ruth_chapa</a>
                        
             <br/>
             <img src='builtoneth.png'/>
