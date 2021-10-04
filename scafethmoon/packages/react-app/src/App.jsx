@@ -67,13 +67,10 @@ const getFromIPFS = async hashToGet => {
 
 // 🛰 providers
 if(DEBUG) console.log("📡 Connecting to Mainnet Ethereum");
-// const mainnetProvider = getDefaultProvider("mainnet", { infura: INFURA_ID, etherscan: ETHERSCAN_KEY, quorum: 1 });
-// const mainnetProvider = new InfuraProvider("mainnet",INFURA_ID);
-//
+
 // attempt to connect to our own scaffold eth rpc and if that fails fall back to infura...
 const scaffoldEthProvider = new JsonRpcProvider("https://rpc.scaffoldeth.io:48544")
 const mainnetInfura = new JsonRpcProvider("https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy")
-// ( ⚠️ Getting "failed to meet quorum" errors? Check your INFURA_I
 
 // 🏠 Your local provider is usually pointed at your local blockchain
 const localProviderUrl = targetNetwork.rpcUrl;
@@ -88,7 +85,6 @@ const blockExplorer = targetNetwork.blockExplorer;
 
 
 function App(props) {
-
   const mainnetProvider = (scaffoldEthProvider && scaffoldEthProvider._network) ? scaffoldEthProvider : mainnetInfura
   if(DEBUG) console.log("🌎 mainnetProvider",mainnetProvider)
 
@@ -133,17 +129,6 @@ function App(props) {
   // If you want to make 🔐 write transactions to your contracts, use the userProvider:
   const writeContracts = useContractLoader(userProvider)
   if(DEBUG) console.log("🔐 writeContracts", writeContracts)
-
-  // EXTERNAL CONTRACT EXAMPLE:
-  //
-  // If you want to bring in the mainnet DAI contract it would look like:
-  // const mainnetDAIContract = useExternalContractLoader(mainnetProvider, DAI_ADDRESS, DAI_ABI)
-  // console.log("🌍 DAI contract on mainnet:", mainnetDAIContract)
-  //
-  // Then read your DAI balance like:
-  // const myMainnetDAIBalance = useContractReader({DAI: mainnetDAIContract},"DAI", "balanceOf",["0x34aA3F359A9D614239015126635CE7732c18fDF3"])
-  // console.log("🥇 myMainnetDAIBalance:", myMainnetDAIBalance)
-
 
   // keep track of a variable from the contract in the local React state:
   const balance = useContractReader(readContracts, "MarsShotBots", "balanceOf", [ address ])
