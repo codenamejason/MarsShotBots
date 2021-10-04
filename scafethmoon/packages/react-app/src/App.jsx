@@ -15,7 +15,8 @@ import { formatEther, parseEther } from "@ethersproject/units";
 import { utils, ethers } from "ethers";
 import { INFURA_ID, NETWORK, NETWORKS } from "./constants";
 import ReactJson from 'react-json-view'
-import assets from './assets.js'
+import assets from "./assets.js";
+
 
 const { BufferList } = require('bl')
 // https://www.npmjs.com/package/ipfs-http-client
@@ -70,7 +71,7 @@ if(DEBUG) console.log("📡 Connecting to Mainnet Ethereum");
 //
 // attempt to connect to our own scaffold eth rpc and if that fails fall back to infura...
 const scaffoldEthProvider = new JsonRpcProvider("https://rpc.scaffoldeth.io:48544")
-const mainnetInfura = new JsonRpcProvider("https://mainnet.infura.io/v3/" + INFURA_ID)
+const mainnetInfura = new JsonRpcProvider("https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy")
 // ( ⚠️ Getting "failed to meet quorum" errors? Check your INFURA_I
 
 // 🏠 Your local provider is usually pointed at your local blockchain
@@ -155,8 +156,8 @@ function App(props) {
   console.log("📟  Transfer events: ", transferEvents)
 
   //track the latest bots minted
-  /* const [lastestMintedBots, setLatestMintedBots] = useState();
-  console.log("📟 latestBotsMinted:", lastestMintedBots); */
+  const [lastestMintedBots, setLatestMintedBots] = useState();
+  console.log("📟 latestBotsMinted:", lastestMintedBots);
 
   
   //
@@ -194,7 +195,7 @@ function App(props) {
     updateYourCollectibles()
   },[ address, yourBalance ])
 
-  /* useEffect(() => {
+  useEffect(() => {
     const getLatestMintedBots = async () => {
       let latestMintedBotsUpdate = [];
 
@@ -220,14 +221,7 @@ function App(props) {
       setLatestMintedBots(latestMintedBotsUpdate);
     }
     getLatestMintedBots();
-  }, [address, yourBalance]) */
-
-
-  /*
-  const addressFromENS = useResolveName(mainnetProvider, "austingriffith.eth");
-  console.log("🏷 Resolved austingriffith.eth as:",addressFromENS)
-  */
-
+  }, [address, yourBalance]);
 
   let networkDisplay = ""
   if(localChainId && selectedChainId && localChainId != selectedChainId ){
@@ -289,18 +283,15 @@ function App(props) {
     )
   }
 
-
   const [ yourJSON, setYourJSON ] = useState( STARTING_JSON );
   const [ sending, setSending ] = useState()
   const [ ipfsHash, setIpfsHash ] = useState()
   const [ ipfsDownHash, setIpfsDownHash ] = useState()
-
   const [ downloading, setDownloading ] = useState()
   const [ ipfsContent, setIpfsContent ] = useState()
-
   const [ transferToAddresses, setTransferToAddresses ] = useState({})
-
   const [ loadedAssets, setLoadedAssets ] = useState()
+
   useEffect(()=>{
     const updateYourCollectibles = async () => {
       let assetUpdate = []
@@ -325,12 +316,12 @@ function App(props) {
     console.log("loadedAssets",a,loadedAssets[a])
 
     let cardActions = []
-    if(loadedAssets[a].forSale){
+    if (loadedAssets[a].forSale) {
       cardActions.push(
         <div>
-          <Button onClick={()=>{
-            console.log("gasPrice,",gasPrice)
-            tx( writeContracts.YourCollectible.mintItem(loadedAssets[a].id,{
+          <Button onClick={() => {
+            console.log("gasPrice, ", gasPrice)
+            tx( writeContracts.YourCollectible.mintItem(loadedAssets[a].id, {
               value: parseEther("1"),
               gasPrice:gasPrice
             }) )
@@ -339,7 +330,7 @@ function App(props) {
           </Button>
         </div>
       )
-    }else{
+    } else {
       cardActions.push(
         <div>
           owned by: <Address
@@ -357,12 +348,12 @@ function App(props) {
         actions={cardActions}
         title={(
           <div>
-            {loadedAssets[a].name} <a style={{cursor:"pointer",opacity:0.33}} href={loadedAssets[a].external_url} target="_blank"><LinkOutlined /></a>
+            {loadedAssets[a].name} <a style={{ cursor:"pointer", opacity:0.33 }} href={loadedAssets[a].external_url} target="_blank"><LinkOutlined /></a>
           </div>
         )}
       >
-        <img style={{maxWidth:130}} src={loadedAssets[a].image}/>
-        <div style={{opacity:0.77}}>
+        <img style={{ maxWidth:130 }} src={loadedAssets[a].image}/>
+        <div style={{ opacity:0.77 }}>
           {loadedAssets[a].description}
         </div>
       </Card>
@@ -381,23 +372,6 @@ function App(props) {
 
         <Switch>
           <Route exact path="/">
-            {/*
-                🎛 this scaffolding is full of commonly used components
-                this <Contract/> component will automatically parse your ABI
-                and give you a form to interact with it locally
-
-            <div style={{ maxWidth:820, margin: "auto", marginTop:32, paddingBottom:256 }}>
-              <StackGrid
-                columnWidth={200}
-                gutterWidth={16}
-                gutterHeight={16}
-              >
-                {galleryList}
-              </StackGrid>
-            </div>
-            */}
-
-
             <div class="">
             <img class="logo_moonshot sub" src="Melancholy_Cybercrime.png" />
             <img class="logo_moonshot" src="mandalabot.png" />
@@ -421,9 +395,9 @@ function App(props) {
               </div>
               <br/>
               <br/>
-{/* 
               {lastestMintedBots && lastestMintedBots.length > 0 ? (
                 <div class="latestBots">
+                  <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖</h4>
                 
                 <List
                   dataSource={lastestMintedBots}
@@ -445,6 +419,30 @@ function App(props) {
                             <img src={item.image} style={{ maxWidth: 150 }} />
                           </div>
                         </Card>
+                        <div>
+                          owner: <Address
+                              address={item.owner}
+                              ensProvider={mainnetProvider}
+                              blockExplorer={blockExplorer}
+                              fontSize={16}
+                          />
+                          <AddressInput
+                            ensProvider={mainnetProvider}
+                            placeholder="transfer to address"
+                            value={transferToAddresses[id]}
+                            onChange={(newValue)=>{
+                              let update = {}
+                              update[id] = newValue
+                              setTransferToAddresses({ ...transferToAddresses, ...update})
+                            }}
+                          />
+                          <Button onClick={()=>{
+                            console.log("writeContracts",writeContracts)
+                            tx( writeContracts.MarsShotBots.transferFrom(address, transferToAddresses[id], id) )
+                          }}>
+                            Transfer
+                          </Button>
+                        </div>
                       </List.Item>
                       </Col>
                       </Row>
@@ -454,40 +452,41 @@ function App(props) {
                 />
               </div>
             ) : (
-              <div>
-              </div>
-            )} */}
-                <br />
-                <br /> 
+              <div></div>
+            )}
+              <br />
+              <br /> 
               </div>
 
             {yourCollectibles && yourCollectibles.length>0 ?
-              <div></div>
+              (<div></div>)
               :
-            <div class="colorme2">
+              (
+                <div class="colorme2">
 
-            <h4 style={{padding:5}}>Why We Think Mars-Shot-Bots Rock:</h4>
-            <br/>
-            <br/>
-            <ul class="rocks">
-              <li>
-               🤖🍠 These bots are the first theme-derivative spin-off to MoonShotBots!  
-              </li>
-              <li>
-               🤖👑 Oh the Novelty!
-              </li>
-              <li>
-               🤖🌱 100% Proceeds Support Public Goods!
-              </li>              
-              <li>
-               🤖❤️ Hang with your marsfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
-              </li>
-              
-            </ul>
+                  <h4 style={{padding:5}}>Why We Think Mars-Shot-Bots Rock:</h4>
+                  <br/>
+                  <br/>
+                  <ul class="rocks">
+                    <li>
+                    🤖🍠 These bots are the first theme-derivative spin-off to MoonShotBots!  
+                    </li>
+                    <li>
+                    🤖👑 Oh the Novelty!
+                    </li>
+                    <li>
+                    🤖🌱 100% Proceeds Support Public Goods!
+                    </li>              
+                    <li>
+                    🤖❤️ Hang with your marsfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
+                    </li>
+                    
+                  </ul>
 
 
-            </div>
-             }
+                </div>
+              )
+            }
     
             {yourCollectibles && yourCollectibles.length > 0 ?
               <div></div>
@@ -528,7 +527,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
 
 
-            {yourCollectibles && yourCollectibles.length>0 ?
+            {/* {yourCollectibles && yourCollectibles.length>0 ?
               <div style={{ width:640, margin: "auto", marginTop:32, padding:32 }}>
                <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖</h4>
             <br/>
@@ -578,7 +577,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                     )
                   }}
                 />
-              </div>:
+              </div>: */}
 
             <div id="preview">
               <h4>Rescue these bots from mars! It hasn't been terraformed yet! 🤖🏠❤️</h4>
@@ -1088,7 +1087,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 <img src="nfts/Zippy_Program.png" title='Abrupt_Paste'/>
 <img src="nfts/Zippy_Screen.png" title='Abrupt_Paste'/>
 <img src="nfts/Zippy_Www.png" title='Abrupt_Paste'/>
- </div>}
+ </div>
 
 
 
