@@ -10,7 +10,7 @@ packages/hardhat/*.txt
 **/node_modules
 packages/hardhat/artifacts
 packages/hardhat/deployments
-packages/react-app/src/contracts
+# packages/react-app/src/contracts
 packages/hardhat/cache
 packages/hardhat/0x29707f2832d34152287c7119b699c3ef5bf5a075.txt
 packages/hardhat/mnemonic.txt
