@@ -492,46 +492,6 @@
 	  ]
 	},
 	{
-	  "name": "Annoyed Javascript Mars Shot Bot",
-	  "description": "Annoyed Javascript is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Annoyed_Computer_program.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Annoyed"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Javascript"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Annoyed Restore Mars Shot Bot",
 	  "description": "Annoyed Restore is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Annoyed_Restore.png",
@@ -740,50 +700,6 @@
 	  ]
 	},
 	{
-	  "name": "Appalling UI Mars Shot Bot",
-	  "description": "Appalling UI is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Appalling_User_interface.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Appalling"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "UI"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
 	  "name": "Appalling Worm Mars Shot Bot",
 	  "description": "Appalling Worm is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Appalling_Worm.png",
@@ -824,50 +740,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
-	  "name": "Appetizing IP Mars Shot Bot",
-	  "description": "Appetizing IP is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Appetizing_Ip_address.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Appetizing"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "IP"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -1076,50 +948,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "paladin"
-		}
-	  ]
-	},
-	{
-	  "name": "Arrogant Javascript Mars Shot Bot",
-	  "description": "Arrogant Javascript is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Arrogant_Computer_program.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Arrogant"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Javascript"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
 		},
 		{
 		  "trait_type": "chest",
@@ -1776,50 +1604,6 @@
 	  ]
 	},
 	{
-	  "name": "Blushing Clip Art Mars Shot Bot",
-	  "description": "Blushing Clip Art is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Blushing_Clip_art.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Blushing"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Clip Art"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
 	  "name": "Blushing Firewall Mars Shot Bot",
 	  "description": "Blushing Firewall is a Mars Shot Bot that builds coordination for public good.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Blushing_Firewall.png",
@@ -1860,90 +1644,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "yolo"
-		}
-	  ]
-	},
-	{
-	  "name": "Bored Search Mars Shot Bot",
-	  "description": "Bored Search is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Bored_Search_engine.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Bored"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Search"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Brave Search Mars Shot Bot",
-	  "description": "Brave Search is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Brave_Search_engine.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Brave"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Search"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
 		}
 	  ]
 	},
@@ -2536,46 +2236,6 @@
 	  ]
 	},
 	{
-	  "name": "Cloudy Clip Board Mars Shot Bot",
-	  "description": "Cloudy Clip Board is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Cloudy_Clip_board.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Cloudy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Clip Board"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Cloudy Macintosh Mars Shot Bot",
 	  "description": "Cloudy Macintosh is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Cloudy_Macintosh.png",
@@ -3036,46 +2696,6 @@
 	  ]
 	},
 	{
-	  "name": "Condemned Caps Lock Mars Shot Bot",
-	  "description": "Condemned Caps Lock is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Condemned_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Condemned"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Condemned Script Mars Shot Bot",
 	  "description": "Condemned Script is a Mars Shot Bot thats chillin and shillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Condemned_Script.png",
@@ -3120,46 +2740,6 @@
 	  ]
 	},
 	{
-	  "name": "Condemned Text Editor Mars Shot Bot",
-	  "description": "Condemned Text Editor is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Condemned_Text_editor.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Condemned"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Text Editor"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Condescending Thread Mars Shot Bot",
 	  "description": "Condescending Thread is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Condescending_Thread.png",
@@ -3200,86 +2780,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Condescending Web Mars Shot Bot",
-	  "description": "Condescending Web is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Condescending_World_wide_web.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Condescending"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Web"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Contemplative Clip Board Mars Shot Bot",
-	  "description": "Contemplative Clip Board is a Mars Shot Bot thats is here for the scene.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Contemplative_Clip_board.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Contemplative"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Clip Board"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
 		}
 	  ]
 	},
@@ -3480,50 +2980,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "diamond"
-		}
-	  ]
-	},
-	{
-	  "name": "Corny Log Out Mars Shot Bot",
-	  "description": "Corny Log Out is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Corny_Log_out.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Corny"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Log Out"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
 		}
 	  ]
 	},
@@ -4144,50 +3600,6 @@
 	  ]
 	},
 	{
-	  "name": "Cynical Virtual Memory Mars Shot Bot",
-	  "description": "Cynical Virtual Memory is a Mars Shot Bot thats is here for the scene.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Cynical_Virtual_memory.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Cynical"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Virtual Memory"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
 	  "name": "Dangerous App Mars Shot Bot",
 	  "description": "Dangerous App is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Dangerous_App.png",
@@ -4268,50 +3680,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Decayed Domain Name Mars Shot Bot",
-	  "description": "Decayed Domain Name is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Decayed_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Decayed"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
 		}
 	  ]
 	},
@@ -4684,50 +4052,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "antenna"
-		}
-	  ]
-	},
-	{
-	  "name": "Depraved UI Mars Shot Bot",
-	  "description": "Depraved UI is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Depraved_User_interface.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Depraved"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "UI"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
 		}
 	  ]
 	},
@@ -5632,46 +4956,6 @@
 	  ]
 	},
 	{
-	  "name": "Eager Social Networking Mars Shot Bot",
-	  "description": "Eager Social Networking is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Eager_Social_networking.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Eager"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Social Networking"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
 	  "name": "Ecstatic Logic Mars Shot Bot",
 	  "description": "Ecstatic Logic is a Mars Shot Bot thats SolarPunk AF.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Ecstatic_Logic.png",
@@ -5756,46 +5040,6 @@
 	  ]
 	},
 	{
-	  "name": "Elated Page Mars Shot Bot",
-	  "description": "Elated Page is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Elated_Home_page.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Elated"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Page"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Emaciated Flowchart Mars Shot Bot",
 	  "description": "Emaciated Flowchart is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Emaciated_Flowchart.png",
@@ -5832,42 +5076,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
-		}
-	  ]
-	},
-	{
-	  "name": "Emaciated Log Out Mars Shot Bot",
-	  "description": "Emaciated Log Out is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Emaciated_Log_out.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Emaciated"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Log Out"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
 		},
 		{
 		  "trait_type": "chest",
@@ -6280,42 +5488,6 @@
 	  ]
 	},
 	{
-	  "name": "Exasperated Caps Lock Mars Shot Bot",
-	  "description": "Exasperated Caps Lock is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Exasperated_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Exasperated"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		}
-	  ]
-	},
-	{
 	  "name": "Exasperated Login Mars Shot Bot",
 	  "description": "Exasperated Login is a Mars Shot Bot thats is here for the vibes.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Exasperated_Login.png",
@@ -6392,46 +5564,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Excited Operating System Mars Shot Bot",
-	  "description": "Excited Operating System is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Excited_Operating_system.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Excited"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Operating System"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
 		}
 	  ]
 	},
@@ -6556,46 +5688,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "soldier"
-		}
-	  ]
-	},
-	{
-	  "name": "Extensive Social Networking Mars Shot Bot",
-	  "description": "Extensive Social Networking is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Extensive_Social_networking.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Extensive"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Social Networking"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
 		}
 	  ]
 	},
@@ -6924,50 +6016,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
-	  "name": "Filthy Fax Mars Shot Bot",
-	  "description": "Filthy Fax is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Filthy_Faq__frequently_asked_questions_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Filthy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Fax"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -7484,50 +6532,6 @@
 	  ]
 	},
 	{
-	  "name": "Foolish Fax Mars Shot Bot",
-	  "description": "Foolish Fax is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Foolish_Faq__frequently_asked_questions_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Foolish"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Fax"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
 	  "name": "Foolish Host Mars Shot Bot",
 	  "description": "Foolish Host is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Foolish_Host.png",
@@ -7776,50 +6780,6 @@
 	  ]
 	},
 	{
-	  "name": "Frantic ROM Mars Shot Bot",
-	  "description": "Frantic ROM is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Frantic_Rom__read_only_memory_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Frantic"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "ROM"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
 	  "name": "Frantic Workstation Mars Shot Bot",
 	  "description": "Frantic Workstation is a Mars Shot Bot thats looking for the Quadratic Lands.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Frantic_Workstation.png",
@@ -7856,94 +6816,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Fresh ROM Mars Shot Bot",
-	  "description": "Fresh ROM is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Fresh_Rom__read_only_memory_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Fresh"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "ROM"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Fresh Web Host Mars Shot Bot",
-	  "description": "Fresh Web Host is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Fresh_Web_host.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Fresh"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Web Host"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
 		},
 		{
 		  "trait_type": "chest",
@@ -8200,46 +7072,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Friendly Virtual Memory Mars Shot Bot",
-	  "description": "Friendly Virtual Memory is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Friendly_Virtual_memory.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Friendly"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Virtual Memory"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -8524,50 +7356,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Funny Data Mining Mars Shot Bot",
-	  "description": "Funny Data Mining is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Funny_Data_mining.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Funny"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Data Mining"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
 		},
 		{
 		  "trait_type": "chest",
@@ -9608,50 +8396,6 @@
 	  ]
 	},
 	{
-	  "name": "Glorious Search Mars Shot Bot",
-	  "description": "Glorious Search is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Glorious_Search_engine.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Glorious"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Search"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
-		}
-	  ]
-	},
-	{
 	  "name": "Gorgeous Flash Mars Shot Bot",
 	  "description": "Gorgeous Flash is a Mars Shot Bot thats chillin and shillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Gorgeous_Flash.png",
@@ -9732,50 +8476,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Gorgeous Shift Key Mars Shot Bot",
-	  "description": "Gorgeous Shift Key is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Gorgeous_Shift_key.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Gorgeous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Shift Key"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
 		}
 	  ]
 	},
@@ -10036,94 +8736,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Greasy Status Bar Mars Shot Bot",
-	  "description": "Greasy Status Bar is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Greasy_Status_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Greasy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Status Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
-		}
-	  ]
-	},
-	{
-	  "name": "Greasy Text Editor Mars Shot Bot",
-	  "description": "Greasy Text Editor is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Greasy_Text_editor.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Greasy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Text Editor"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -10544,50 +9156,6 @@
 	  ]
 	},
 	{
-	  "name": "Grumpy Laser Printer Mars Shot Bot",
-	  "description": "Grumpy Laser Printer is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Grumpy_Laser_printer.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Grumpy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Laser Printer"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Grumpy Path Mars Shot Bot",
 	  "description": "Grumpy Path is a Mars Shot Bot that builds coordination for public good.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Grumpy_Path.png",
@@ -10756,50 +9324,6 @@
 	  ]
 	},
 	{
-	  "name": "Handsome UI Mars Shot Bot",
-	  "description": "Handsome UI is a Mars Shot Bot thats straight chillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Handsome_User_interface.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Handsome"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "UI"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Happy Bus Mars Shot Bot",
 	  "description": "Happy Bus is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Happy_Bus.png",
@@ -10916,46 +9440,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Happy Operating System Mars Shot Bot",
-	  "description": "Happy Operating System is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Happy_Operating_system.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Happy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Operating System"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "paladin"
 		}
 	  ]
 	},
@@ -11384,50 +9868,6 @@
 	  ]
 	},
 	{
-	  "name": "Helpless Domain Name Mars Shot Bot",
-	  "description": "Helpless Domain Name is a Mars Shot Bot thats straight chillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Helpless_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Helpless"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
 	  "name": "Helpless Linux Mars Shot Bot",
 	  "description": "Helpless Linux is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Helpless_Linux.png",
@@ -11684,46 +10124,6 @@
 	  ]
 	},
 	{
-	  "name": "Hollow Domain Name Mars Shot Bot",
-	  "description": "Hollow Domain Name is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Hollow_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Hollow"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Hollow Download Mars Shot Bot",
 	  "description": "Hollow Download is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Hollow_Download.png",
@@ -11972,50 +10372,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "diamond"
-		}
-	  ]
-	},
-	{
-	  "name": "Homely Operating System Mars Shot Bot",
-	  "description": "Homely Operating System is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Homely_Operating_system.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Homely"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Operating System"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
 		}
 	  ]
 	},
@@ -12568,50 +10924,6 @@
 	  ]
 	},
 	{
-	  "name": "Immense Floppy Disk Mars Shot Bot",
-	  "description": "Immense Floppy Disk is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Immense_Floppy_disk.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Immense"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Floppy Disk"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Immense Reboot Mars Shot Bot",
 	  "description": "Immense Reboot is a Mars Shot Bot thats chillin and shillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Immense_Reboot.png",
@@ -13012,46 +11324,6 @@
 	  ]
 	},
 	{
-	  "name": "Irate Trojan Horse Mars Shot Bot",
-	  "description": "Irate Trojan Horse is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Irate_Trojan_horse.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Irate"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Trojan Horse"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "paladin"
-		}
-	  ]
-	},
-	{
 	  "name": "Irritable Firmware Mars Shot Bot",
 	  "description": "Irritable Firmware is a Mars Shot Bot thats is here for the scene.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Irritable_Firmware.png",
@@ -13336,46 +11608,6 @@
 	  ]
 	},
 	{
-	  "name": "Jealous Clip Art Mars Shot Bot",
-	  "description": "Jealous Clip Art is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jealous_Clip_art.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Jealous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Clip Art"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		}
-	  ]
-	},
-	{
 	  "name": "Jealous Hyperlink Mars Shot Bot",
 	  "description": "Jealous Hyperlink is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jealous_Hyperlink.png",
@@ -13584,50 +11816,6 @@
 	  ]
 	},
 	{
-	  "name": "Jolly Clip Art Mars Shot Bot",
-	  "description": "Jolly Clip Art is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jolly_Clip_art.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Jolly"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Clip Art"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
-		}
-	  ]
-	},
-	{
 	  "name": "Jolly Flaming Mars Shot Bot",
 	  "description": "Jolly Flaming is a Mars Shot Bot thats looking for the Quadratic Lands.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jolly_Flaming.png",
@@ -13668,46 +11856,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Jolly Scroll Bar Mars Shot Bot",
-	  "description": "Jolly Scroll Bar is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jolly_Scroll_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Jolly"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Scroll Bar"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
 		}
 	  ]
 	},
@@ -13796,50 +11944,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Joyous ROM Mars Shot Bot",
-	  "description": "Joyous ROM is a Mars Shot Bot thats straight chillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Joyous_Rom__read_only_memory_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Joyous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "ROM"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
 		}
 	  ]
 	},
@@ -14008,50 +12112,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "yolo"
-		}
-	  ]
-	},
-	{
-	  "name": "Jumpy Trojan Horse Mars Shot Bot",
-	  "description": "Jumpy Trojan Horse is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Jumpy_Trojan_horse.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Jumpy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Trojan Horse"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
 		}
 	  ]
 	},
@@ -14392,46 +12452,6 @@
 	  ]
 	},
 	{
-	  "name": "Little Search Mars Shot Bot",
-	  "description": "Little Search is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Little_Search_engine.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Little"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Search"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Little Shareware Mars Shot Bot",
 	  "description": "Little Shareware is a Mars Shot Bot thats SolarPunk AF.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Little_Shareware.png",
@@ -14472,42 +12492,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "paladin"
-		}
-	  ]
-	},
-	{
-	  "name": "Little Web Host Mars Shot Bot",
-	  "description": "Little Web Host is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Little_Web_host.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Little"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Web Host"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -14628,50 +12612,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Lonely Cloud Computing Mars Shot Bot",
-	  "description": "Lonely Cloud Computing is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Lonely_Cloud_computing.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Lonely"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Cloud Computing"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
 		},
 		{
 		  "trait_type": "chest",
@@ -15004,46 +12944,6 @@
 	  ]
 	},
 	{
-	  "name": "Macho Domain Name Mars Shot Bot",
-	  "description": "Macho Domain Name is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Macho_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Macho"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
 	  "name": "Magnificent Password Mars Shot Bot",
 	  "description": "Magnificent Password is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Magnificent_Password.png",
@@ -15080,50 +12980,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
-	  "name": "Magnificent Status Bar Mars Shot Bot",
-	  "description": "Magnificent Status Bar is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Magnificent_Status_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Magnificent"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Status Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
 		},
 		{
 		  "trait_type": "chest",
@@ -15208,46 +13064,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Maniacal Log Out Mars Shot Bot",
-	  "description": "Maniacal Log Out is a Mars Shot Bot thats straight chillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Maniacal_Log_out.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Maniacal"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Log Out"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
 		}
 	  ]
 	},
@@ -15552,50 +13368,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "diamond"
-		}
-	  ]
-	},
-	{
-	  "name": "Minute Javascript Mars Shot Bot",
-	  "description": "Minute Javascript is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Minute_Computer_program.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Minute"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Javascript"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
 		}
 	  ]
 	},
@@ -16132,170 +13904,6 @@
 	  ]
 	},
 	{
-	  "name": "Nonsensical Shift Key Mars Shot Bot",
-	  "description": "Nonsensical Shift Key is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Nonsensical_Shift_key.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Nonsensical"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Shift Key"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Nutritious Scroll Bar Mars Shot Bot",
-	  "description": "Nutritious Scroll Bar is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Nutritious_Scroll_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Nutritious"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Scroll Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		}
-	  ]
-	},
-	{
-	  "name": "Nutty Scroll Bar Mars Shot Bot",
-	  "description": "Nutty Scroll Bar is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Nutty_Scroll_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Nutty"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Scroll Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "googly"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Obedient Page Mars Shot Bot",
-	  "description": "Obedient Page is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Obedient_Home_page.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Obedient"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Page"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_3"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Oblivious Database Mars Shot Bot",
 	  "description": "Oblivious Database is a Mars Shot Bot thats chillin and shillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Oblivious_Database.png",
@@ -16796,50 +14404,6 @@
 	  ]
 	},
 	{
-	  "name": "Outrageous Page Mars Shot Bot",
-	  "description": "Outrageous Page is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Outrageous_Home_page.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Outrageous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Page"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
-		}
-	  ]
-	},
-	{
 	  "name": "Outrageous Inbox Mars Shot Bot",
 	  "description": "Outrageous Inbox is a Mars Shot Bot thats is here for the scene.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Outrageous_Inbox.png",
@@ -16876,86 +14440,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
-	  "name": "Panicky Scroll Bar Mars Shot Bot",
-	  "description": "Panicky Scroll Bar is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Panicky_Scroll_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Panicky"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Scroll Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Panicky UI Mars Shot Bot",
-	  "description": "Panicky UI is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Panicky_User_interface.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Panicky"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "UI"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
 		}
 	  ]
 	},
@@ -17112,46 +14596,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Petty Laser Printer Mars Shot Bot",
-	  "description": "Petty Laser Printer is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Petty_Laser_printer.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Petty"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Laser Printer"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
 		}
 	  ]
 	},
@@ -17368,50 +14812,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Prickly Caps Lock Mars Shot Bot",
-	  "description": "Prickly Caps Lock is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Prickly_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Prickly"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
 		}
 	  ]
 	},
@@ -17704,46 +15104,6 @@
 	  ]
 	},
 	{
-	  "name": "Reassured Laser Printer Mars Shot Bot",
-	  "description": "Reassured Laser Printer is a Mars Shot Bot thats is here for the scene.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Reassured_Laser_printer.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Reassured"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Laser Printer"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "paladin"
-		}
-	  ]
-	},
-	{
 	  "name": "Reassured Net Mars Shot Bot",
 	  "description": "Reassured Net is a Mars Shot Bot thats looking for the Quadratic Lands.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Reassured_Net.png",
@@ -17784,46 +15144,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "yolo"
-		}
-	  ]
-	},
-	{
-	  "name": "Repulsive Operating System Mars Shot Bot",
-	  "description": "Repulsive Operating System is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Repulsive_Operating_system.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Repulsive"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Operating System"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
 		}
 	  ]
 	},
@@ -18036,42 +15356,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
-	  "name": "Rough Social Networking Mars Shot Bot",
-	  "description": "Rough Social Networking is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Rough_Social_networking.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Rough"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Social Networking"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "circles"
 		},
 		{
 		  "trait_type": "chest",
@@ -18756,46 +16040,6 @@
 	  ]
 	},
 	{
-	  "name": "Selfish Word Processor Mars Shot Bot",
-	  "description": "Selfish Word Processor is a Mars Shot Bot thats straight chillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Selfish_Word_processor.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Selfish"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Word Processor"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
 	  "name": "Shaggy Teminal Mars Shot Bot",
 	  "description": "Shaggy Teminal is a Mars Shot Bot thats is here for the scene.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Shaggy_Teminal.png",
@@ -18832,46 +16076,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "soldier"
-		}
-	  ]
-	},
-	{
-	  "name": "Shallow Fax Mars Shot Bot",
-	  "description": "Shallow Fax is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Shallow_Faq__frequently_asked_questions_.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Shallow"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Fax"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -19216,46 +16420,6 @@
 	  ]
 	},
 	{
-	  "name": "Slimy Domain Name Mars Shot Bot",
-	  "description": "Slimy Domain Name is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Slimy_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Slimy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Slimy Protocol Mars Shot Bot",
 	  "description": "Slimy Protocol is a Mars Shot Bot that builds coordination for public good.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Slimy_Protocol.png",
@@ -19380,46 +16544,6 @@
 		{
 		  "trait_type": "antenna",
 		  "value": "small"
-		}
-	  ]
-	},
-	{
-	  "name": "Slippery Floppy Disk Mars Shot Bot",
-	  "description": "Slippery Floppy Disk is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Slippery_Floppy_disk.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Slippery"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Floppy Disk"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
 		}
 	  ]
 	},
@@ -19628,90 +16752,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "paladin"
-		}
-	  ]
-	},
-	{
-	  "name": "Smiling Web Host Mars Shot Bot",
-	  "description": "Smiling Web Host is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Smiling_Web_host.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Smiling"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Web Host"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Smoggy Caps Lock Mars Shot Bot",
-	  "description": "Smoggy Caps Lock is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Smoggy_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Smoggy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
 		}
 	  ]
 	},
@@ -20176,46 +17216,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Soggy Virtual Memory Mars Shot Bot",
-	  "description": "Soggy Virtual Memory is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Soggy_Virtual_memory.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Soggy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Virtual Memory"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
 		}
 	  ]
 	},
@@ -21188,90 +18188,6 @@
 	  ]
 	},
 	{
-	  "name": "Strange Scroll Bar Mars Shot Bot",
-	  "description": "Strange Scroll Bar is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Strange_Scroll_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Strange"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Scroll Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
-		}
-	  ]
-	},
-	{
-	  "name": "Strong Flash Drive Mars Shot Bot",
-	  "description": "Strong Flash Drive is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Strong_Flash_drive.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Strong"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Flash Drive"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Strong Flash Mars Shot Bot",
 	  "description": "Strong Flash is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Strong_Flash.png",
@@ -21576,94 +18492,6 @@
 	  ]
 	},
 	{
-	  "name": "Superficial Open Source Mars Shot Bot",
-	  "description": "Superficial Open Source is a Mars Shot Bot thats here to be Austins hype man.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Superficial_Open_source.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Superficial"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Open Source"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_4"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Swanky Caps Lock Mars Shot Bot",
-	  "description": "Swanky Caps Lock is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Swanky_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Swanky"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "diamond"
-		}
-	  ]
-	},
-	{
 	  "name": "Swanky Drag Mars Shot Bot",
 	  "description": "Swanky Drag is a Mars Shot Bot thats on the lookout for freeloaders.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Swanky_Drag.png",
@@ -21744,134 +18572,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "soldier"
-		}
-	  ]
-	},
-	{
-	  "name": "Sweet IP Mars Shot Bot",
-	  "description": "Sweet IP is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Sweet_Ip_address.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Sweet"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "IP"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "rectangle"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Sweet Text Editor Mars Shot Bot",
-	  "description": "Sweet Text Editor is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Sweet_Text_editor.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Sweet"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Text Editor"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "teeth"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
-		}
-	  ]
-	},
-	{
-	  "name": "Tart Social Networking Mars Shot Bot",
-	  "description": "Tart Social Networking is a Mars Shot Bot thats on the lookout for freeloaders.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Tart_Social_networking.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Tart"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Social Networking"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "googly"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "ETH"
 		}
 	  ]
 	},
@@ -21960,50 +18660,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Tasty Laser Printer Mars Shot Bot",
-	  "description": "Tasty Laser Printer is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Tasty_Laser_printer.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Tasty"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Laser Printer"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "polkadot"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
 		}
 	  ]
 	},
@@ -22176,50 +18832,6 @@
 	  ]
 	},
 	{
-	  "name": "Tense Open Source Mars Shot Bot",
-	  "description": "Tense Open Source is a Mars Shot Bot thats coordinatin so we can coordinate to create better coordination.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Tense_Open_source.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Tense"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Open Source"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "stare"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
 	  "name": "Terrible Folder Mars Shot Bot",
 	  "description": "Terrible Folder is a Mars Shot Bot thats chillin and shillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Terrible_Folder.png",
@@ -22344,50 +18956,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
-	  "name": "Thoughtless Page Mars Shot Bot",
-	  "description": "Thoughtless Page is a Mars Shot Bot thats chillin and shillin.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Thoughtless_Home_page.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Thoughtless"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Page"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "triangles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "large"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
 		}
 	  ]
 	},
@@ -22760,50 +19328,6 @@
 	  ]
 	},
 	{
-	  "name": "Tricky Pirate Mars Shot Bot",
-	  "description": "Tricky Pirate is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Tricky_Pirate.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Tricky"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Pirate"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "flowing"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_2"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "crown"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "soldier"
-		}
-	  ]
-	},
-	{
 	  "name": "Tricky Wiki Mars Shot Bot",
 	  "description": "Tricky Wiki is a Mars Shot Bot thats looking for the Quadratic Lands.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Tricky_Wiki.png",
@@ -22880,46 +19404,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Trite Web Mars Shot Bot",
-	  "description": "Trite Web is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Trite_World_wide_web.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Trite"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Web"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "complex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -23336,50 +19820,6 @@
 	  ]
 	},
 	{
-	  "name": "Vast Caps Lock Mars Shot Bot",
-	  "description": "Vast Caps Lock is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Vast_Caps_lock.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Vast"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Caps Lock"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "googly"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "square"
-		}
-	  ]
-	},
-	{
 	  "name": "Vexed Scanner Mars Shot Bot",
 	  "description": "Vexed Scanner is a Mars Shot Bot thats straight chillin.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Vexed_Scanner.png",
@@ -23540,86 +19980,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "square"
-		}
-	  ]
-	},
-	{
-	  "name": "Virtuous Flash Drive Mars Shot Bot",
-	  "description": "Virtuous Flash Drive is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Virtuous_Flash_drive.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Virtuous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Flash Drive"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "circular"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "hex"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "classic"
-		}
-	  ]
-	},
-	{
-	  "name": "Vivacious Log Out Mars Shot Bot",
-	  "description": "Vivacious Log Out is a Mars Shot Bot thats is here for the vibes.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Vivacious_Log_out.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Vivacious"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Log Out"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "line"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "narrow"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "orbit"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -24032,50 +20392,6 @@
 	  ]
 	},
 	{
-	  "name": "Whopping IP Mars Shot Bot",
-	  "description": "Whopping IP is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Whopping_Ip_address.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Whopping"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "IP"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "starburst"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open2"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "uni"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "three"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "cool"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "squiggly"
-		}
-	  ]
-	},
-	{
 	  "name": "Witty Gigabyte Mars Shot Bot",
 	  "description": "Witty Gigabyte is a Mars Shot Bot that builds coordination for public good.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Witty_Gigabyte.png",
@@ -24204,46 +20520,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "diamond"
-		}
-	  ]
-	},
-	{
-	  "name": "Wobbly Status Bar Mars Shot Bot",
-	  "description": "Wobbly Status Bar is a Mars Shot Bot that builds coordination for public good.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Wobbly_Status_bar.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Wobbly"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Status Bar"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "clown"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "piano"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "peer"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "antenna"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
 		}
 	  ]
 	},
@@ -24416,46 +20692,6 @@
 	  ]
 	},
 	{
-	  "name": "Zealous Notebook Computer Mars Shot Bot",
-	  "description": "Zealous Notebook Computer is a Mars Shot Bot thats is here for the scene.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Zealous_Notebook_computer.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Zealous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Notebook Computer"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "squiggles"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "oval"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "wide"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "triangle"
-		}
-	  ]
-	},
-	{
 	  "name": "Zealous Platform Mars Shot Bot",
 	  "description": "Zealous Platform is a Mars Shot Bot thats is here for the vibes.",
 	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Zealous_Platform.png",
@@ -24496,90 +20732,6 @@
 		{
 		  "trait_type": "chest",
 		  "value": "ETH"
-		}
-	  ]
-	},
-	{
-	  "name": "Zealous Shift Key Mars Shot Bot",
-	  "description": "Zealous Shift Key is a Mars Shot Bot thats looking for the Quadratic Lands.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Zealous_Shift_key.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Zealous"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Shift Key"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "round"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_3"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "tall"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "round"
-		}
-	  ]
-	},
-	{
-	  "name": "Zippy Domain Name Mars Shot Bot",
-	  "description": "Zippy Domain Name is a Mars Shot Bot thats SolarPunk AF.",
-	  "image": "https://gateway.pinata.cloud/ipfs/QmSm9EaQnQtZqrD7GTnFBS4xVuQZcMkoQoH1YZrgScMLEE/Zippy_Domain_name.png",
-	  "external_url": "https://forgottenbots.space",
-	  "attributes": [
-		{
-		  "trait_type": "theme",
-		  "value": "marsbot"
-		},
-		{
-		  "trait_type": "descriptor",
-		  "value": "Zippy"
-		},
-		{
-		  "trait_type": "name",
-		  "value": "Domain Name"
-		},
-		{
-		  "trait_type": "background",
-		  "value": "fun"
-		},
-		{
-		  "trait_type": "mouth",
-		  "value": "open"
-		},
-		{
-		  "trait_type": "ears",
-		  "value": "round_3"
-		},
-		{
-		  "trait_type": "eyes",
-		  "value": "square"
-		},
-		{
-		  "trait_type": "antenna",
-		  "value": "small"
-		},
-		{
-		  "trait_type": "chest",
-		  "value": "yolo"
 		}
 	  ]
 	},
@@ -24748,3 +20900,4 @@
 	  ]
 	}
   ]
+  
