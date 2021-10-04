@@ -322,7 +322,7 @@ function App(props) {
               <br/>
               {lastestMintedBots && lastestMintedBots.length > 0 ? (
                 <div className="latestBots">
-                  <h4 style={{ padding:5 }}>Your Mars-Shot-Bots 🤖</h4>
+                  <h4 style={{ padding: 5 }}>Latest Minted Bots 🤖</h4>
                 
                 <List
                   dataSource={lastestMintedBots}
@@ -344,7 +344,12 @@ function App(props) {
                                 <img src={item.image} style={{ maxWidth: 150 }} />
                               </div>
                             </Card>
-                            {/*  */}
+                            owner: <Address
+                                  address={item.owner}
+                                  ensProvider={mainnetProvider}
+                                  blockExplorer={blockExplorer}
+                                  fontSize={16}
+                              />
                           </List.Item>
                         </Col>
                         
