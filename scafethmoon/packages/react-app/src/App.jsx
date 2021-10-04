@@ -198,7 +198,6 @@ function App(props) {
   useEffect(() => {
     const getLatestMintedBots = async () => {
       let latestMintedBotsUpdate = [];
-
       for( let botIndex = 0; botIndex < 6; botIndex++){
         if (transferEvents.length > 0){
           try{
