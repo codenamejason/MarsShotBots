@@ -105,10 +105,10 @@ function App(props) {
 
   // You can warn the user if you would like them to be on a specific network
   let localChainId = localProvider && localProvider._network && localProvider._network.chainId
-  if(DEBUG) console.log("🏠 localChainId",localChainId)
+  if(DEBUG) console.log("🏠 localChainId", localChainId)
 
   let selectedChainId = userProvider && userProvider._network && userProvider._network.chainId
-  if(DEBUG) console.log("🕵🏻‍♂️ selectedChainId:",selectedChainId)
+  if(DEBUG) console.log("🕵🏻‍♂️ selectedChainId:", selectedChainId)
 
   // For more hooks, check out 🔗eth-hooks at: https://www.npmjs.com/package/eth-hooks
 
@@ -120,7 +120,7 @@ function App(props) {
 
   // 🏗 scaffold-eth is full of handy hooks like this one to get your balance:
    const yourLocalBalance = useBalance(localProvider, address);
-   if(DEBUG) console.log("💵 yourLocalBalance",yourLocalBalance?formatEther(yourLocalBalance):"...")
+   if(DEBUG) console.log("💵 yourLocalBalance", yourLocalBalance?formatEther(yourLocalBalance):"...")
 
   // Just plug in different 🛰 providers to get your balance on different chains:
   // const yourMainnetBalance = useBalance(mainnetProvider, address);
@@ -199,7 +199,7 @@ function App(props) {
     const getLatestMintedBots = async () => {
       let latestMintedBotsUpdate = [];
 
-      for( let botIndex = 0; botIndex < 5; botIndex++){
+      for( let botIndex = 0; botIndex < 6; botIndex++){
         if (transferEvents.length > 0){
           try{
           let tokenId = transferEvents[botIndex].tokenId.toNumber()
@@ -324,22 +324,18 @@ function App(props) {
                 <div className="latestBots">
                   <h4 style={{ padding: 5 }}>Latest Minted Bots 🤖</h4>
                 
-                <List
-                  dataSource={lastestMintedBots}
-                  renderItem={item => {
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(3,minmax(0,1fr))", gap: "1rem" }}>
+                  {lastestMintedBots.map((item, index) => {
                     const id = item.id;
                     return (
                       <Row align="middle" gutter={[4, 4]}>
                         <Col span={24}>
-                          <List.Item key={item.id} style={{ display: 'inline'}}>
                             <Card
                               style={{ borderBottom:'none', border: 'none', background: "none"}}
-                              title={
-                                <div style={{ display: 'inline', fontSize: 16, marginRight: 8, color: 'white' }}>
-                                  #{id} {item.name}
-                                </div>                            
-                              }
                             >
+                              <div style={{ display: 'inline', fontSize: 16, marginRight: 8, color: 'white' }}>
+                                #{id} {item.name}
+                              </div>  
                               <div>
                                 <img src={item.image} style={{ maxWidth: 150 }} />
                               </div>
@@ -350,42 +346,11 @@ function App(props) {
                                   blockExplorer={blockExplorer}
                                   fontSize={16}
                               />
-                          </List.Item>
                         </Col>
-                        
-                        {/* <Col span={12}>
-                        <List.Item key={item.id} style={{ display: 'inline'}}>
-                          <div style={{ alignContent: "center", width: "300px" }}>
-                              owner: <Address
-                                  address={item.owner}
-                                  ensProvider={mainnetProvider}
-                                  blockExplorer={blockExplorer}
-                                  fontSize={16}
-                              />
-                              <AddressInput
-                                ensProvider={mainnetProvider}
-                                placeholder="transfer to address"
-                                value={transferToAddresses[id]}
-                                onChange={(newValue)=>{
-                                  let update = {}
-                                  update[id] = newValue
-                                  setTransferToAddresses({ ...transferToAddresses, ...update})
-                                }}
-                              />
-                              <Button onClick={()=>{
-                                console.log("writeContracts",writeContracts)
-                                tx( writeContracts.MarsShotBots.transferFrom(address, transferToAddresses[id], id) )
-                              }}>
-                                Transfer
-                              </Button>
-                            </div>
-                          </List.Item>
-                        </Col> */}
                       </Row>
-                      
                     );
-                  }}
-                />
+                  })}
+                </div>
               </div>
             ) : (
               <div></div>
