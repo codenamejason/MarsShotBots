@@ -15,7 +15,9 @@ import { formatEther, parseEther } from "@ethersproject/units";
 import { utils, ethers } from "ethers";
 import { INFURA_ID, NETWORK, NETWORKS } from "./constants";
 import ReactJson from 'react-json-view'
-import assets from './assets.js'
+import assets from "./assets.js";
+import { Divider } from "rc-menu";
+
 
 const { BufferList } = require('bl')
 // https://www.npmjs.com/package/ipfs-http-client
@@ -70,7 +72,7 @@ if(DEBUG) console.log("📡 Connecting to Mainnet Ethereum");
 //
 // attempt to connect to our own scaffold eth rpc and if that fails fall back to infura...
 const scaffoldEthProvider = new JsonRpcProvider("https://rpc.scaffoldeth.io:48544")
-const mainnetInfura = new JsonRpcProvider("https://mainnet.infura.io/v3/" + INFURA_ID)
+const mainnetInfura = new JsonRpcProvider("https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy")
 // ( ⚠️ Getting "failed to meet quorum" errors? Check your INFURA_I
 
 // 🏠 Your local provider is usually pointed at your local blockchain
@@ -145,20 +147,19 @@ function App(props) {
 
   // keep track of a variable from the contract in the local React state:
   const balance = useContractReader(readContracts, "MarsShotBots", "balanceOf", [ address ])
-  console.log("🤗  balance: ", balance)
+  // console.log("🤗  balance: ", balance)
 
   const priceToMint = useContractReader(readContracts, "MarsShotBots", "price")
-  console.log("🤗  priceToMint: ", priceToMint)
+  // console.log("🤗  priceToMint: ", priceToMint)
 
   //📟 Listen for broadcast events
   const transferEvents = useEventListener(readContracts, "MarsShotBots", "Transfer", localProvider, 1);
-  console.log("📟  Transfer events: ", transferEvents)
+  // console.log("📟  Transfer events: ", transferEvents)
 
   //track the latest bots minted
-  /* const [lastestMintedBots, setLatestMintedBots] = useState();
-  console.log("📟 latestBotsMinted:", lastestMintedBots); */
+  const [lastestMintedBots, setLatestMintedBots] = useState();
+  // console.log("📟 latestBotsMinted:", lastestMintedBots);
 
-  
   //
   // 🧠 This effect will update yourCollectibles by polling when your balance changes
   //
@@ -170,35 +171,35 @@ function App(props) {
       let collectibleUpdate = []
       for(let tokenIndex = 0; tokenIndex < balance; tokenIndex++){
         try{
-          console.log("Getting token index",tokenIndex)
+          // console.log("Getting token index",tokenIndex)
           const tokenId = await readContracts.MarsShotBots.tokenOfOwnerByIndex(address, tokenIndex)
-          console.log("tokenId", tokenId)
+          // console.log("tokenId", tokenId)
           const tokenURI = await readContracts.MarsShotBots.tokenURI(tokenId)
-          console.log("tokenURI", tokenURI)
+          // console.log("tokenURI", tokenURI)
 
           const ipfsHash =  tokenURI.replace("https://forgottenbots.mypinata.cloud/ipfs/","")
-          console.log("ipfsHash", ipfsHash)
+          // console.log("ipfsHash", ipfsHash)
 
           const jsonManifestBuffer = await getFromIPFS(ipfsHash)
 
-          try{
+          try {
             const jsonManifest = JSON.parse(jsonManifestBuffer.toString())
-            console.log("jsonManifest",jsonManifest)
+            // console.log("jsonManifest",jsonManifest)
             collectibleUpdate.push({ id:tokenId, uri:tokenURI, owner: address, ...jsonManifest })
-          }catch(e){console.log(e)}
+          } catch (e) { console.log(e) }
 
-        }catch(e){console.log(e)}
+        } catch (e) { console.log(e) }
       }
       setYourCollectibles(collectibleUpdate)
     }
     updateYourCollectibles()
   },[ address, yourBalance ])
 
-  /* useEffect(() => {
+  useEffect(() => {
     const getLatestMintedBots = async () => {
       let latestMintedBotsUpdate = [];
 
-      for( let botIndex = 0; botIndex < 3; botIndex++){
+      for( let botIndex = 0; botIndex < 5; botIndex++){
         if (transferEvents.length > 0){
           try{
           let tokenId = transferEvents[botIndex].tokenId.toNumber()
@@ -220,14 +221,7 @@ function App(props) {
       setLatestMintedBots(latestMintedBotsUpdate);
     }
     getLatestMintedBots();
-  }, [address, yourBalance]) */
-
-
-  /*
-  const addressFromENS = useResolveName(mainnetProvider, "austingriffith.eth");
-  console.log("🏷 Resolved austingriffith.eth as:",addressFromENS)
-  */
-
+  }, [address, yourBalance]);
 
   let networkDisplay = ""
   if(localChainId && selectedChainId && localChainId != selectedChainId ){
@@ -245,9 +239,9 @@ function App(props) {
         />
       </div>
     )
-  }else{
+  } else {
     networkDisplay = (
-      <div style={{zIndex:-1, position:'absolute', right:154,top:28,padding:16,color:targetNetwork.color}}>
+      <div style={{ zIndex:-1, position:'absolute', right:154, top:28, padding:16, color:targetNetwork.color }}>
         {targetNetwork.name}
       </div>
     )
@@ -273,7 +267,7 @@ function App(props) {
   const faucetAvailable = localProvider && localProvider.connection && localProvider.connection.url && localProvider.connection.url.indexOf(window.location.hostname)>=0 && !process.env.REACT_APP_PROVIDER && price > 1;
 
   const [ faucetClicked, setFaucetClicked ] = useState( false );
-  if(!faucetClicked&&localProvider&&localProvider._network&&localProvider._network.chainId==31337&&yourLocalBalance&&formatEther(yourLocalBalance)<=0){
+  if(!faucetClicked && localProvider && localProvider._network && localProvider._network.chainId==31337 && yourLocalBalance && formatEther(yourLocalBalance) <= 0){
     faucetHint = (
       <div style={{padding:16}}>
         <Button type={"primary"} onClick={()=>{
@@ -289,141 +283,46 @@ function App(props) {
     )
   }
 
-
   const [ yourJSON, setYourJSON ] = useState( STARTING_JSON );
   const [ sending, setSending ] = useState()
   const [ ipfsHash, setIpfsHash ] = useState()
   const [ ipfsDownHash, setIpfsDownHash ] = useState()
-
   const [ downloading, setDownloading ] = useState()
   const [ ipfsContent, setIpfsContent ] = useState()
-
   const [ transferToAddresses, setTransferToAddresses ] = useState({})
-
-  const [ loadedAssets, setLoadedAssets ] = useState()
-  useEffect(()=>{
-    const updateYourCollectibles = async () => {
-      let assetUpdate = []
-      for(let a in assets){
-        try{
-          const forSale = await readContracts.YourCollectible.forSale(utils.id(a))
-          let owner
-          if(!forSale){
-            const tokenId = await readContracts.YourCollectible.uriToTokenId(utils.id(a))
-            owner = await readContracts.YourCollectible.ownerOf(tokenId)
-          }
-          assetUpdate.push({id:a,...assets[a],forSale:forSale,owner:owner})
-        }catch(e){console.log(e)}
-      }
-      setLoadedAssets(assetUpdate)
-    }
-    if(readContracts && readContracts.YourCollectible) updateYourCollectibles()
-  }, [ assets, readContracts, transferEvents ]);
-
-  let galleryList = []
-  for(let a in loadedAssets){
-    console.log("loadedAssets",a,loadedAssets[a])
-
-    let cardActions = []
-    if(loadedAssets[a].forSale){
-      cardActions.push(
-        <div>
-          <Button onClick={()=>{
-            console.log("gasPrice,",gasPrice)
-            tx( writeContracts.YourCollectible.mintItem(loadedAssets[a].id,{
-              value: parseEther("1"),
-              gasPrice:gasPrice
-            }) )
-          }}>
-             BUY (1 ETH)
-          </Button>
-        </div>
-      )
-    }else{
-      cardActions.push(
-        <div>
-          owned by: <Address
-            address={loadedAssets[a].owner}
-            ensProvider={mainnetProvider}
-            blockExplorer={blockExplorer}
-            minimized={true}
-          />
-        </div>
-      )
-    }
-
-    galleryList.push(
-      <Card style={{width:200}} key={loadedAssets[a].name}
-        actions={cardActions}
-        title={(
-          <div>
-            {loadedAssets[a].name} <a style={{cursor:"pointer",opacity:0.33}} href={loadedAssets[a].external_url} target="_blank"><LinkOutlined /></a>
-          </div>
-        )}
-      >
-        <img style={{maxWidth:130}} src={loadedAssets[a].image}/>
-        <div style={{opacity:0.77}}>
-          {loadedAssets[a].description}
-        </div>
-      </Card>
-    )
-  }
 
   return (
     <div className="App">
-
-      {/* ✏️ Edit the header and change the title to your project name */}
       <Header />
-      {networkDisplay}
-
+        {networkDisplay}
       <BrowserRouter>
-
-
         <Switch>
           <Route exact path="/">
-            {/*
-                🎛 this scaffolding is full of commonly used components
-                this <Contract/> component will automatically parse your ABI
-                and give you a form to interact with it locally
-
-            <div style={{ maxWidth:820, margin: "auto", marginTop:32, paddingBottom:256 }}>
-              <StackGrid
-                columnWidth={200}
-                gutterWidth={16}
-                gutterHeight={16}
-              >
-                {galleryList}
-              </StackGrid>
-            </div>
-            */}
-
-
-            <div class="">
-            <img class="logo_moonshot sub" src="Melancholy_Cybercrime.png" />
-            <img class="logo_moonshot" src="mandalabot.png" />
-            <img class="logo_moonshot sub" src="Aloof_Database.png" />
+            <div className="">
+            <img className="logo_moonshot sub" src="Melancholy_Cybercrime.png" />
+            <img className="logo_moonshot" src="mandalabot.png" />
+            <img className="logo_moonshot sub" src="Aloof_Database.png" />
             <br/>
-            <img class="logo_moonshot sub2" src="rocket1.png" /><h1 >Mars Shot Bots</h1><img class="logo_moonshot sub2" src="rocket2.png" />
-
+            <img className="logo_moonshot sub2" src="rocket1.png" /><h1 >Mars Shot Bots</h1><img class="logo_moonshot sub2" src="rocket2.png" />
             <h2>A ⭐️SUPER-Rare⭐️ PFP (502 supply)</h2>
             <h2>Assets Created and Abandoned 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a>, <a href="https://gitcoin.co/octaviaan">@octaviaan</a> & <a href="https://twitter.com/austingriffith">@austingriffith</a></h2>
             <h2>❤️🛠 Deployed on "x", after an extended rescue mission. </h2>
-            <div style={{padding:32}}>
-              <Button type={"primary"} onClick={async ()=>{
+            <div style={{ padding:32 }}>
+              <Button type={ "primary" } onClick={async ()=>{
                 let price = await readContracts.MarsShotBots.price()
                 tx( writeContracts.MarsShotBots.requestMint({value: priceToMint, from: address}))
               }}>MINT for Ξ{priceToMint && (+ethers.utils.formatEther(priceToMint)).toFixed(4)}</Button>
 
-              <div class="publicgoodsgood">
+              <div className="publicgoodsgood">
                 <h2>❤️*100% Proceeds To Public Goods❤️</h2>
                  <strong>100%</strong> of Proceeds fund Ethereum Public Goods on Gitcoin Grants<br/>
                  <strong>🦧✊🌱100%🌱✊🦧</strong>
               </div>
               <br/>
               <br/>
-{/* 
               {lastestMintedBots && lastestMintedBots.length > 0 ? (
-                <div class="latestBots">
+                <div className="latestBots">
+                  <h4 style={{ padding: 5 }}>Latest Minted Bots 🤖</h4>
                 
                 <List
                   dataSource={lastestMintedBots}
@@ -431,22 +330,57 @@ function App(props) {
                     const id = item.id;
                     return (
                       <Row align="middle" gutter={[4, 4]}>
-                        <Col span={8}>
-                      <List.Item style={{ display: 'inline'}}>
-                        <Card
-                          style={{ borderBottom:'none', border: 'none', background: "none"}}
-                          title={
-                            <div style={{ display: 'inline', fontSize: 16, marginRight: 8, color: 'white' }}>
-                              #{id} {item.name}
-                            </div>                            
-                          }
-                        >
-                          <div>
-                            <img src={item.image} style={{ maxWidth: 150 }} />
-                          </div>
-                        </Card>
-                      </List.Item>
-                      </Col>
+                        <Col span={24}>
+                          <List.Item key={item.id} style={{ display: 'inline'}}>
+                            <Card
+                              style={{ borderBottom:'none', border: 'none', background: "none"}}
+                              title={
+                                <div style={{ display: 'inline', fontSize: 16, marginRight: 8, color: 'white' }}>
+                                  #{id} {item.name}
+                                </div>                            
+                              }
+                            >
+                              <div>
+                                <img src={item.image} style={{ maxWidth: 150 }} />
+                              </div>
+                            </Card>
+                            owner: <Address
+                                  address={item.owner}
+                                  ensProvider={mainnetProvider}
+                                  blockExplorer={blockExplorer}
+                                  fontSize={16}
+                              />
+                          </List.Item>
+                        </Col>
+                        
+                        {/* <Col span={12}>
+                        <List.Item key={item.id} style={{ display: 'inline'}}>
+                          <div style={{ alignContent: "center", width: "300px" }}>
+                              owner: <Address
+                                  address={item.owner}
+                                  ensProvider={mainnetProvider}
+                                  blockExplorer={blockExplorer}
+                                  fontSize={16}
+                              />
+                              <AddressInput
+                                ensProvider={mainnetProvider}
+                                placeholder="transfer to address"
+                                value={transferToAddresses[id]}
+                                onChange={(newValue)=>{
+                                  let update = {}
+                                  update[id] = newValue
+                                  setTransferToAddresses({ ...transferToAddresses, ...update})
+                                }}
+                              />
+                              <Button onClick={()=>{
+                                console.log("writeContracts",writeContracts)
+                                tx( writeContracts.MarsShotBots.transferFrom(address, transferToAddresses[id], id) )
+                              }}>
+                                Transfer
+                              </Button>
+                            </div>
+                          </List.Item>
+                        </Col> */}
                       </Row>
                       
                     );
@@ -454,40 +388,41 @@ function App(props) {
                 />
               </div>
             ) : (
-              <div>
-              </div>
-            )} */}
-                <br />
-                <br /> 
+              <div></div>
+            )}
+              <br />
+              <br /> 
               </div>
 
             {yourCollectibles && yourCollectibles.length>0 ?
-              <div></div>
+              (<div></div>)
               :
-            <div class="colorme2">
+              (
+                <div class="colorme2">
 
-            <h4 style={{padding:5}}>Why We Think Mars-Shot-Bots Rock:</h4>
-            <br/>
-            <br/>
-            <ul class="rocks">
-              <li>
-               🤖🍠 These bots are the first theme-derivative spin-off to MoonShotBots!  
-              </li>
-              <li>
-               🤖👑 Oh the Novelty!
-              </li>
-              <li>
-               🤖🌱 100% Proceeds Support Public Goods!
-              </li>              
-              <li>
-               🤖❤️ Hang with your marsfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
-              </li>
-              
-            </ul>
+                  <h4 style={{padding:5}}>Why We Think Mars-Shot-Bots Rock:</h4>
+                  <br/>
+                  <br/>
+                  <ul class="rocks">
+                    <li>
+                    🤖🍠 These bots are the first theme-derivative spin-off to MoonShotBots!  
+                    </li>
+                    <li>
+                    🤖👑 Oh the Novelty!
+                    </li>
+                    <li>
+                    🤖🌱 100% Proceeds Support Public Goods!
+                    </li>              
+                    <li>
+                    🤖❤️ Hang with your marsfrens on <a  href="https://discord.gg/ACKb28pSSP">Discord</a> & <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
+                    </li>
+                    
+                  </ul>
 
 
-            </div>
-             }
+                </div>
+              )
+            }
     
             {yourCollectibles && yourCollectibles.length > 0 ?
               <div></div>
@@ -528,7 +463,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 
 
 
-            {yourCollectibles && yourCollectibles.length>0 ?
+            {/* {yourCollectibles && yourCollectibles.length>0 ?
               <div style={{ width:640, margin: "auto", marginTop:32, padding:32 }}>
                <h4 style={{padding:5}}>Your Mars-Shot-Bots 🤖</h4>
             <br/>
@@ -578,7 +513,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
                     )
                   }}
                 />
-              </div>:
+              </div>: */}
 
             <div id="preview">
               <h4>Rescue these bots from mars! It hasn't been terraformed yet! 🤖🏠❤️</h4>
@@ -1088,7 +1023,7 @@ we made our mistakes, but you didnt have to abandon us :(</p>
 <img src="nfts/Zippy_Program.png" title='Abrupt_Paste'/>
 <img src="nfts/Zippy_Screen.png" title='Abrupt_Paste'/>
 <img src="nfts/Zippy_Www.png" title='Abrupt_Paste'/>
- </div>}
+ </div>
 
 
 
