@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Button, Modal, Divider } from "antd";
 import { DollarCircleOutlined } from "@ant-design/icons";
 import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
+import { Button, Divider, Modal } from "antd";
+import React, { useState } from "react";
 
 // added display of 0 if price={price} is not provided
 
@@ -13,8 +13,8 @@ import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
 
   ~ How can I use? ~
 
-  <Ramp 
-    price={price} 
+  <Ramp
+    price={price}
     address={address}
   />
 
@@ -32,9 +32,9 @@ export default function Ramp(props) {
 
   const allFaucets = [];
   for (const n in props.networks) {
-    if (props.networks[n].chainId != 31337 && props.networks[n].chainId != 1) {
+    if (props.networks[n].chainId !== 31337 && props.networks[n].chainId !== 1) {
       allFaucets.push(
-        <p key={props.networks[n].id}>
+        <p key={props.networks[n].chainId}>
           <Button
             style={{ color: props.networks[n].color }}
             type={type}
@@ -53,7 +53,13 @@ export default function Ramp(props) {
 
   return (
     <div>
-      <Button size="large" shape="round">
+      <Button
+        size="large"
+        shape="round"
+        onClick={() => {
+          setModalUp("up");
+        }}
+      >
         <DollarCircleOutlined style={{ color: "#52c41a" }} />{" "}
         {typeof props.price === "undefined" ? 0 : props.price.toFixed(2)}
       </Button>
