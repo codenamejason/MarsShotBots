@@ -75,7 +75,7 @@ export default function Home({
                 {lastestMintedBots.map((item, index) => {
                   const id = item.id;
                   return (
-                    <Row align="middle" gutter={[4, 4]}>
+                    <Row key={id} align="middle" gutter={[4, 4]}>
                       <Col span={24}>
                         <Card style={{ borderBottom: "none", border: "none", background: "none" }}>
                           <div style={{ display: "inline", fontSize: 16, marginRight: 8, color: "white" }}>
