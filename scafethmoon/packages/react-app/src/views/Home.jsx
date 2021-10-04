@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Button, List, Row, Col, Card } from "antd";
 import { ethers } from "ethers";
@@ -14,7 +12,6 @@ export default function Home({
   mainnetProvider,
   blockExplorer,
   address,
-  yourCollectibles,
 }) {
   return (
     <>
@@ -32,7 +29,25 @@ export default function Home({
           <a href="https://gitcoin.co/octaviaan">@octaviaan</a> &{" "}
           <a href="https://twitter.com/austingriffith">@austingriffith</a>
         </h2>
-        <h2>❤️🛠 Deployed on "x", after an extended rescue mission. </h2>
+        <h2>❤️🛠 Deployed on "x", after an extended rescue mission </h2>
+        <h2>
+          by <a href="https://twitter.com/ghostffcode">@ghostffcode</a> &{" "}
+          <a href="https://twitter.com/codenamejason">@codenamejason</a>
+        </h2>
+        <h2>
+          Art by{" "}
+          <a style={{ padding: 8 }} href="https://gitcoin.co/octaviaan">
+            @octaviaan
+          </a>
+          &
+          <a style={{ padding: 8 }} href="https://twitter.com/nowonderer">
+            @nowonderer
+          </a>
+          &
+          <a style={{ padding: 8 }} href="https://twitter.com/Ruth_chapa">
+            @ruth_chapa
+          </a>
+        </h2>
         <div style={{ padding: 32 }}>
           <Button
             type="primary"
@@ -56,68 +71,32 @@ export default function Home({
             <div className="latestBots">
               <h4 style={{ padding: 5 }}>Latest Minted Bots 🤖</h4>
 
-              <List
-                dataSource={lastestMintedBots}
-                renderItem={item => {
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(3,minmax(0,1fr))", gap: "1rem" }}>
+                {lastestMintedBots.map((item, index) => {
                   const id = item.id;
                   return (
                     <Row align="middle" gutter={[4, 4]}>
                       <Col span={24}>
-                        <List.Item key={item.id} style={{ display: "inline" }}>
-                          <Card
-                            style={{ borderBottom: "none", border: "none", background: "none" }}
-                            title={
-                              <div style={{ display: "inline", fontSize: 16, marginRight: 8, color: "white" }}>
-                                #{id} {item.name}
-                              </div>
-                            }
-                          >
-                            <div>
-                              <img src={item.image} style={{ maxWidth: 150 }} />
-                            </div>
-                          </Card>
-                          owner:{" "}
-                          <Address
-                            address={item.owner}
-                            ensProvider={mainnetProvider}
-                            blockExplorer={blockExplorer}
-                            fontSize={16}
-                          />
-                        </List.Item>
+                        <Card style={{ borderBottom: "none", border: "none", background: "none" }}>
+                          <div style={{ display: "inline", fontSize: 16, marginRight: 8, color: "white" }}>
+                            #{id} {item.name}
+                          </div>
+                          <div>
+                            <img src={item.image} style={{ maxWidth: 150 }} />
+                          </div>
+                        </Card>
+                        owner:{" "}
+                        <Address
+                          address={item.owner}
+                          ensProvider={mainnetProvider}
+                          blockExplorer={blockExplorer}
+                          fontSize={16}
+                        />
                       </Col>
-
-                      {/* <Col span={12}>
-            <List.Item key={item.id} style={{ display: 'inline'}}>
-              <div style={{ alignContent: "center", width: "300px" }}>
-                  owner: <Address
-                      address={item.owner}
-                      ensProvider={mainnetProvider}
-                      blockExplorer={blockExplorer}
-                      fontSize={16}
-                  />
-                  <AddressInput
-                    ensProvider={mainnetProvider}
-                    placeholder="transfer to address"
-                    value={transferToAddresses[id]}
-                    onChange={(newValue)=>{
-                      let update = {}
-                      update[id] = newValue
-                      setTransferToAddresses({ ...transferToAddresses, ...update})
-                    }}
-                  />
-                  <Button onClick={()=>{
-                    console.log("writeContracts",writeContracts)
-                    tx( writeContracts.MarsShotBots.transferFrom(address, transferToAddresses[id], id) )
-                  }}>
-                    Transfer
-                  </Button>
-                </div>
-              </List.Item>
-            </Col> */}
                     </Row>
                   );
-                }}
-              />
+                })}
+              </div>
             </div>
           ) : (
             <div />
@@ -126,7 +105,7 @@ export default function Home({
           <br />
         </div>
 
-        {yourCollectibles && yourCollectibles.length > 0 ? (
+        {lastestMintedBots && lastestMintedBots.length > 0 ? (
           <div />
         ) : (
           <div className="colorme2">
@@ -145,7 +124,7 @@ export default function Home({
           </div>
         )}
 
-        {yourCollectibles && yourCollectibles.length > 0 ? (
+        {lastestMintedBots && lastestMintedBots.length > 0 ? (
           <div />
         ) : (
           <div className="colorme3">

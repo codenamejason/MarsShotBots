@@ -53,14 +53,13 @@
     "watch-theme": "yarn workspace @scaffold-eth/react-app watch"
   },
   "workspaces": ["packages/*"],
-    "nohoist": [
-      "**/@graphprotocol/graph-ts",
-      "**/@graphprotocol/graph-ts/**",
-      "**/hardhat",
-      "**/hardhat/**",
-      "**/hardhat-ts",
-      "**/hardhat-ts/**"
-    ]
-  },
+  "nohoist": [
+    "**/@graphprotocol/graph-ts",
+    "**/@graphprotocol/graph-ts/**",
+    "**/hardhat",
+    "**/hardhat/**",
+    "**/hardhat-ts",
+    "**/hardhat-ts/**"
+  ],
   "dependencies": {}
 }

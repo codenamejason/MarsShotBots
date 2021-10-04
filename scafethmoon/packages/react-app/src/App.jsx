@@ -41,27 +41,8 @@ const ipfs = ipfsAPI({ host: "ipfs.infura.io", port: "5001", protocol: "https" }
 
 console.log("Hello");
 
-/*
-    Welcome to 🏗 scaffold-eth !
-
-    Code:
-    https://github.com/scaffold-eth/scaffold-eth
-
-    Support:
-    https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA
-    or DM @austingriffith on twitter or telegram
-
-    You should get your own Infura.io ID and put it in `constants.js`
-    (this is your connection to the main Ethereum network for ENS etc.)
-
-
-    🌏 EXTERNAL CONTRACTS:
-    You can also bring in contract artifacts in `constants.js`
-    (and then use the `useExternalContractLoader()` hook!)
-*/
-
 /// 📡 What chain are your contracts deployed to?
-const targetNetwork = NETWORKS.localhost; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
+const targetNetwork = NETWORKS.rinkeby; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
 
 // 😬 Sorry for all the console logging
 const DEBUG = true;
@@ -174,8 +155,7 @@ const web3Modal = new Web3Modal({
     // },
     "custom-walletlink": {
       display: {
-        logo:
-          "https://play-lh.googleusercontent.com/PjoJoG27miSglVBXoXrxBSLveV6e3EeBPpNY55aiUUBM9Q1RCETKCOqdOkX2ZydqVf0",
+        logo: "https://play-lh.googleusercontent.com/PjoJoG27miSglVBXoXrxBSLveV6e3EeBPpNY55aiUUBM9Q1RCETKCOqdOkX2ZydqVf0",
         name: "Coinbase",
         description: "Connect to Coinbase Wallet (not Coinbase App)",
       },
@@ -283,7 +263,9 @@ function App(props) {
   console.log("🤗  priceToMint: ", priceToMint, userProviderAndSigner);
 
   //📟 Listen for broadcast events
-  const transferEvents = useEventListener(readContracts, "MarsShotBots", "Transfer", localProvider, 1);
+  const transferEvents = useEventListener(readContracts, "MarsShotBots", "Transfer", localProvider, 1).map((item) => {
+    return item.decode(item.data);
+  });
   // console.log("📟  Transfer events: ", transferEvents)
 
   //track the latest bots minted
@@ -295,38 +277,34 @@ function App(props) {
   */
 
   const yourBalance = balance && balance.toNumber && balance.toNumber();
-  const [yourCollectibles, setYourCollectibles] = useState();
 
   useEffect(() => {
-    const updateYourCollectibles = async () => {
-      const collectibleUpdate = [];
-      for (let tokenIndex = 0; tokenIndex < balance; tokenIndex++) {
-        try {
-          // console.log("Getting token index",tokenIndex)
-          const tokenId = await readContracts.MarsShotBots.tokenOfOwnerByIndex(address, tokenIndex);
-          // console.log("tokenId", tokenId)
-          const tokenURI = await readContracts.MarsShotBots.tokenURI(tokenId);
-          // console.log("tokenURI", tokenURI)
-
-          const ipfsHash = tokenURI.replace("https://forgottenbots.mypinata.cloud/ipfs/", "");
-          // console.log("ipfsHash", ipfsHash)
-
-          const jsonManifestBuffer = await getFromIPFS(ipfsHash);
-
+    const getLatestMintedBots = async () => {
+      const latestMintedBotsUpdate = [];
+      for (let botIndex = 0; botIndex < 6; botIndex++) {
+        console.log("Transfer Events: ", transferEvents);
+        if (transferEvents.length > 0) {
           try {
-            const jsonManifest = JSON.parse(jsonManifestBuffer.toString());
-            // console.log("jsonManifest",jsonManifest)
-            collectibleUpdate.push({ id: tokenId, uri: tokenURI, owner: address, ...jsonManifest });
+            const tokenId = transferEvents[botIndex].args.tokenId.toNumber();
+            console.log("Token id: ", tokenid);
+            const tokenURI = await readContracts.MarsShotBots.tokenURI(tokenId);
+            const ipfsHash = tokenURI.replace("https://forgottenbots.mypinata.cloud/ipfs/", "");
+            const jsonManifestBuffer = await getFromIPFS(ipfsHash);
+
+            try {
+              const jsonManifest = JSON.parse(jsonManifestBuffer.toString());
+              latestMintedBotsUpdate.push({ id: tokenId, uri: tokenURI, owner: address, ...jsonManifest });
+            } catch (e) {
+              console.log(e);
+            }
           } catch (e) {
             console.log(e);
           }
-        } catch (e) {
-          console.log(e);
         }
       }
-      setYourCollectibles(collectibleUpdate);
+      setLatestMintedBots(latestMintedBotsUpdate);
     };
-    updateYourCollectibles();
+    getLatestMintedBots();
   }, [address, yourBalance]);
 
   let networkDisplay = "";
@@ -491,7 +469,7 @@ function App(props) {
               mainnetProvider={mainnetProvider}
               blockExplorer={blockExplorer}
               address={address}
-              yourCollectibles={yourCollectibles}
+              lastestMintedBots={lastestMintedBots}
             />
           </Route>
         </Switch>
