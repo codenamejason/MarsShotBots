@@ -5,16 +5,10 @@
       "chainId": "4",
       "contracts": {
         "MarsShotBots": {
-          "address": "0xb4B8d5176a5D9e8E8F2d6776f660096Da6Ae41B8",
+          "address": "0x21651Dc8C6977CaEdf228bB2Ef10B9c22059d79c",
           "abi": [
             {
-              "inputs": [
-                {
-                  "internalType": "string[]",
-                  "name": "_uris",
-                  "type": "string[]"
-                }
-              ],
+              "inputs": [],
               "stateMutability": "nonpayable",
               "type": "constructor"
             },

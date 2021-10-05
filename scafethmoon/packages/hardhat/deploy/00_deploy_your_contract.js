@@ -12,7 +12,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   await deploy("MarsShotBots", {
     // Learn more about args here: https://www.npmjs.com/package/hardhat-deploy#deploymentsdeploy
     from: deployer,
-    args: [uris],
+    // args: [uris],
     log: true,
   });
 
