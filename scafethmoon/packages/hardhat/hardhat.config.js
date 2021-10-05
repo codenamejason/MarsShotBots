@@ -112,7 +112,7 @@ module.exports = {
 
       //      url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXXXX/eth/mainnet", // <---- YOUR MORALIS ID! (not limited to infura)
 
-      // gasPrice: 90 * 1000000000, 13909868 * 90
+      // gasPrice: 90000000,
       accounts: {
         mnemonic: mnemonic(),
       },

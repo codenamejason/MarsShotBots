@@ -48,11 +48,13 @@ export default function Home({
             @ruth_chapa
           </a>
         </h2>
+        <h2><a href="https://etherscan.io/address/0x711d2aC13b86BE157795B576dE4bbe6827564111">0x711d2aC13b86BE157795B576dE4bbe6827564111</a></h2>
         <div style={{ padding: 32 }}>
           <Button
             type="primary"
             onClick={async () => {
               const price = await readContracts.MarsShotBots.price();
+              // price = price + ethers.utils.parseEther(".002");
               tx(writeContracts.MarsShotBots.requestMint({ value: price, from: address }));
             }}
           >
@@ -85,13 +87,13 @@ export default function Home({
                             <img src={item.image} style={{ maxWidth: 150 }} />
                           </div>
                         </Card>
-                        owner:{" "}
+                        {/* owner:{" "}
                         <Address
                           address={item.owner}
                           ensProvider={mainnetProvider}
                           blockExplorer={blockExplorer}
                           fontSize={16}
-                        />
+                        /> */}
                       </Col>
                     </Row>
                   );
