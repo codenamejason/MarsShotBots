@@ -737,7 +737,7 @@ export default function Home({
             <p>
               <strong>🙋‍♀️ When was this project launched?</strong>
               <br />
-              10/4/21 after an extensive rescue mission.
+              10/5/21 after an extensive rescue mission.
             </p>
           </li>
           <li>
@@ -803,7 +803,7 @@ export default function Home({
             <p>
               <strong>🙋‍♂️What else should we know?</strong>
               <br />
-              <a href="https://gitcoin.co/grants/">Gitcoin Grants Round 11</a> starts September 8th! It's going to have
+              <a href="https://gitcoin.co/grants/">Gitcoin Grants Round 12</a> starts in December! It's going to have
               new discoverability features, new checkout options, and will feature the launch of{" "}
               <a href="https://github.com/dcgtc/dgrants">dGrants</a>, the first decentralized Gitcoin Grants Round.
             </p>
