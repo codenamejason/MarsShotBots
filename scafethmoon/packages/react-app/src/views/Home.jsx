@@ -25,6 +25,9 @@ export default function Home({
         <img className="logo_moonshot sub2" src="rocket2.png" />
         <h2>A ⭐️SUPER-Rare⭐️ PFP (502 supply)</h2>
         <h2>
+          Twitter <a href="https://twitter.com/marsshotbots">@marsshotbots</a>
+        </h2>
+        <h2>
           Assets Created and Abandoned 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a>,{" "}
           <a href="https://gitcoin.co/octaviaan">@octaviaan</a> &{" "}
           <a href="https://twitter.com/austingriffith">@austingriffith</a>
@@ -48,7 +51,12 @@ export default function Home({
             @ruth_chapa
           </a>
         </h2>
-        <h2><a href="https://etherscan.io/address/0x711d2aC13b86BE157795B576dE4bbe6827564111">0x711d2aC13b86BE157795B576dE4bbe6827564111</a></h2>
+        <h2>
+          Deployed MarsShotBots Contract:{" "}
+          <a href="https://etherscan.io/address/0x711d2aC13b86BE157795B576dE4bbe6827564111">
+            0x711d2aC13b86BE157795B576dE4bbe6827564111
+          </a>
+        </h2>
         <div style={{ padding: 32 }}>
           <Button
             type="primary"
