@@ -737,7 +737,7 @@ export default function Home({
             <p>
               <strong>🙋‍♀️ When was this project launched?</strong>
               <br />
-              10/5/21 after an extensive rescue mission.
+              10/6/21 after an extensive rescue mission.
             </p>
           </li>
           <li>
