@@ -3,6 +3,7 @@
 
 // const { config, ethers, tenderly, run } = require("hardhat");
 // const chalk = require("chalk");
+const uris = require("../uris.json");
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
   const { deploy } = deployments;
@@ -11,7 +12,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   await deploy("MarsShotBots", {
     // Learn more about args here: https://www.npmjs.com/package/hardhat-deploy#deploymentsdeploy
     from: deployer,
-    // args: [ "Hello", ethers.utils.parseEther("1.5") ],
+    args: [uris],
     log: true,
   });
 
@@ -24,9 +25,5 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     yourContract.transferOwnership(YOUR_ADDRESS_HERE);
   */
 };
-
-function pause(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 module.exports.tags = ["MarsShotBots"];

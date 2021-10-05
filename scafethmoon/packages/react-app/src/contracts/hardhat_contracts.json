@@ -1,14 +1,20 @@
 {
-  "4": {
-    "rinkeby": {
-      "name": "rinkeby",
-      "chainId": "4",
+  "31337": {
+    "localhost": {
+      "name": "localhost",
+      "chainId": "31337",
       "contracts": {
         "MarsShotBots": {
-          "address": "0xB734e00F945001Cce93f3ddaEcd8d93d4022e391",
+          "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
           "abi": [
             {
-              "inputs": [],
+              "inputs": [
+                {
+                  "internalType": "string[]",
+                  "name": "_uris",
+                  "type": "string[]"
+                }
+              ],
               "stateMutability": "nonpayable",
               "type": "constructor"
             },

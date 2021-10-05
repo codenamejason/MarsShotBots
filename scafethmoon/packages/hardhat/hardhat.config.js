@@ -26,7 +26,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "rinkeby";
+const defaultNetwork = "mainnet";
 
 const mainnetGwei = 21;
 
@@ -112,7 +112,7 @@ module.exports = {
 
       //      url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXXXX/eth/mainnet", // <---- YOUR MORALIS ID! (not limited to infura)
 
-      gasPrice: mainnetGwei * 1000000000,
+      gasPrice: 90 * 1000000000,
       accounts: {
         mnemonic: mnemonic(),
       },
