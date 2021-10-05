@@ -70,18 +70,14 @@ if (DEBUG) console.log("📡 Connecting to Mainnet Ethereum");
 //
 // attempt to connect to our own scaffold eth rpc and if that fails fall back to infura...
 // Using StaticJsonRpcProvider as the chainId won't change see https://github.com/ethers-io/ethers.js/issues/901
-const scaffoldEthProvider = navigator.onLine
-  ? new ethers.providers.StaticJsonRpcProvider("https://rpc.scaffoldeth.io:48544")
-  : null;
-const poktMainnetProvider = navigator.onLine
-  ? new ethers.providers.StaticJsonRpcProvider(
-      "https://eth-mainnet.gateway.pokt.network/v1/lb/611156b4a585a20035148406",
-    )
-  : null;
-const mainnetInfura = navigator.onLine
-  ? new ethers.providers.StaticJsonRpcProvider("https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy")
-  : null;
-// ( ⚠️ Getting "failed to meet quorum" errors? Check your INFURA_ID
+const scaffoldEthProvider = new ethers.providers.StaticJsonRpcProvider("https://rpc.scaffoldeth.io:48544");
+const poktMainnetProvider = new ethers.providers.StaticJsonRpcProvider(
+  "https://eth-mainnet.gateway.pokt.network/v1/lb/611156b4a585a20035148406",
+);
+const mainnetInfura = new ethers.providers.StaticJsonRpcProvider(
+  "https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy",
+);
+
 // 🏠 Your local provider is usually pointed at your local blockchain
 const localProviderUrl = targetNetwork.rpcUrl;
 // as you deploy to other networks you can set REACT_APP_PROVIDER=https://dai.poa.network in packages/react-app/.env
@@ -155,8 +151,7 @@ const web3Modal = new Web3Modal({
     // },
     "custom-walletlink": {
       display: {
-        logo:
-          "https://play-lh.googleusercontent.com/PjoJoG27miSglVBXoXrxBSLveV6e3EeBPpNY55aiUUBM9Q1RCETKCOqdOkX2ZydqVf0",
+        logo: "https://play-lh.googleusercontent.com/PjoJoG27miSglVBXoXrxBSLveV6e3EeBPpNY55aiUUBM9Q1RCETKCOqdOkX2ZydqVf0",
         name: "Coinbase",
         description: "Connect to Coinbase Wallet (not Coinbase App)",
       },
