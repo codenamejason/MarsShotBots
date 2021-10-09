@@ -71,6 +71,7 @@ export default function Home({
 
           <div className="publicgoodsgood">
             <h2>❤️*100% Proceeds To Public Goods❤️</h2>
+            <h2>code forked from moonshot bots that still goes to public goods</h2>
             <strong>100%</strong> of Proceeds fund Ethereum Public Goods on Gitcoin Grants
             <br />
             <strong>🦧✊🌱100%🌱✊🦧</strong>
