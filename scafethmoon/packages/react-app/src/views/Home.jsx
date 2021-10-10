@@ -15,50 +15,31 @@ export default function Home({
 }) {
   return (
     <>
+    
       <div className="">
         <img className="logo_moonshot sub" src="Melancholy_Cybercrime.png" />
         <img className="logo_moonshot" src="mandalabot.png" />
         <img className="logo_moonshot sub" src="Aloof_Database.png" />
         <br />
         <img className="logo_moonshot sub2" src="rocket1.png" />
-        <h1>Mars Shot Bots</h1>
+        <h1>Mars-Shot Bots</h1>
         <img className="logo_moonshot sub2" src="rocket2.png" />
         <h2>A ⭐️SUPER-Rare⭐️ PFP (502 supply)</h2>
-        <h2>
-          Twitter <a href="https://twitter.com/marsshotbots">@marsshotbots</a>
-        </h2>
+        <h2>Code forked from Moonshot Bots, 100% still goes to public goods!</h2>
         <h2>
           Assets Created and Abandoned 😭 by ya bois <a href="https://twitter.com/owocki">@owocki</a>,{" "}
           <a href="https://gitcoin.co/octaviaan">@octaviaan</a> &{" "}
           <a href="https://twitter.com/austingriffith">@austingriffith</a>
         </h2>
-        <h2>❤️🛠 Deployed on "x", after an extended rescue mission </h2>
         <h2>
-          by <a href="https://twitter.com/ghostffcode">@ghostffcode</a> &{" "}
-          <a href="https://twitter.com/codenamejason">@codenamejason</a>
-        </h2>
-        <h2>
-          Art by{" "}
-          <a style={{ padding: 8 }} href="https://gitcoin.co/octaviaan">
-            @octaviaan
-          </a>
-          &
-          <a style={{ padding: 8 }} href="https://twitter.com/nowonderer">
-            @nowonderer
-          </a>
-          &
-          <a style={{ padding: 8 }} href="https://twitter.com/Ruth_chapa">
-            @ruth_chapa
-          </a>
-        </h2>
-        <h2>
-          Deployed MarsShotBots Contract:{" "}
+          Contract Address:{" "}
           <a href="https://etherscan.io/address/0x711d2aC13b86BE157795B576dE4bbe6827564111">
             0x711d2aC13b86BE157795B576dE4bbe6827564111
           </a>
         </h2>
+        <h2>❤️🛠 Deployed on 10/5/21 after an extended rescue mission.</h2>
         <div style={{ padding: 32 }}>
-          <Button
+        <Button
             type="primary"
             onClick={async () => {
               const price = await readContracts.MarsShotBots.price();
@@ -70,8 +51,7 @@ export default function Home({
           </Button>
 
           <div className="publicgoodsgood">
-            <h2>❤️*100% Proceeds To Public Goods❤️</h2>
-            <h2>code forked from moonshot bots that still goes to public goods</h2>
+            <h2>❤️*100% Proceeds To Public Goods</h2>
             <strong>100%</strong> of Proceeds fund Ethereum Public Goods on Gitcoin Grants
             <br />
             <strong>🦧✊🌱100%🌱✊🦧</strong>
@@ -115,7 +95,21 @@ export default function Home({
           <br />
           <br />
         </div>
-
+        <h2>
+          by <a href="https://twitter.com/ghostffcode">@ghostffcode</a> &{" "}
+          <a href="https://twitter.com/codenamejason">@codenamejason</a> &{" "}
+          <a href="https://twitter.com/nowonderer">@nowonderer</a>
+        </h2>
+        <h2>
+          Art by{" "}
+          <a style={{ padding: 8 }} href="https://gitcoin.co/octaviaan">
+            @octaviaan
+          </a>
+          &
+          <a style={{ padding: 8 }} href="https://twitter.com/Ruth_chapa">
+            @ruth_chapa
+          </a>
+        </h2>
         {lastestMintedBots && lastestMintedBots.length > 0 ? (
           <div />
         ) : (
@@ -128,8 +122,7 @@ export default function Home({
               <li>🤖👑 Oh the Novelty!</li>
               <li>🤖🌱 100% Proceeds Support Public Goods!</li>
               <li>
-                🤖❤️ Hang with your marsfrens on <a href="https://discord.gg/ACKb28pSSP">Discord</a> &{" "}
-                <a href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">Telegram</a>
+                🤖❤️ Hang with your marsfrens on <a href="https://t.me/marsshotbotsdiscuss">Telegram</a>
               </li>
             </ul>
           </div>
@@ -823,16 +816,16 @@ export default function Home({
             <p>
               <strong>🙋‍♂️I has another question, where can I get in touch?</strong>
               <br />
-              Tweet at me; <a href="https://twitter.com/nowonderer">@nowonderer</a>
+              Tweet at us; <a href="https://twitter.com/marsshotbots">@marsshotbots</a>
             </p>
           </li>
         </ul>
         <br />|
-        <a style={{ padding: 8 }} href="broken">
-          On OpenSea sometime soon?
+        <a style={{ padding: 8 }} href="https://opensea.io/collection/marsshotbots">
+          OpenSea
         </a>
         |
-        <a style={{ padding: 8 }} href="https://t.me/joinchat/v6N_GHY-8kU3ZmRh">
+        <a style={{ padding: 8 }} href="https://t.me/marsshotbotsdiscuss">
           Telegram
         </a>
         |
@@ -850,8 +843,8 @@ export default function Home({
         /
         <a style={{ padding: 8 }} href="https://twitter.com/nowonderer">
           @nowonderer
-        </a>{" "}
-        /{" "}
+        </a>
+        /
         <a style={{ padding: 8 }} href="https://twitter.com/Ruth_chapa">
           @ruth_chapa
         </a>
