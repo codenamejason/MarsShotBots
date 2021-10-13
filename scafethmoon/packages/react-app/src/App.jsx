@@ -274,8 +274,8 @@ function App(props) {
 
   const getLatestMintedBots = async () => {
     const latestMintedBotsUpdate = [];
-    for (let botIndex = 0; botIndex < 6; botIndex++) {
-      if (transferEvents[botIndex]) {
+    for (let botIndex = 0; botIndex < transferEvents.length - 1 ; botIndex++) {    
+      if (transferEvents[botIndex].args.from == "0x0000000000000000000000000000000000000000" && latestMintedBotsUpdate.length < 6) {        
         try {
           const tokenId = transferEvents[botIndex].args.tokenId.toNumber();
 
