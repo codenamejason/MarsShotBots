@@ -75,7 +75,7 @@ const poktMainnetProvider = new ethers.providers.StaticJsonRpcProvider(
   "https://eth-mainnet.gateway.pokt.network/v1/lb/611156b4a585a20035148406",
 );
 const mainnetInfura = new ethers.providers.StaticJsonRpcProvider(
-  "https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy",
+  "https://eth-mainnet.alchemyapi.io/v2/Ql4si7R71u2IsFu_A9oh3llL6Q2IaTqR",
 );
 
 // 🏠 Your local provider is usually pointed at your local blockchain
@@ -95,7 +95,7 @@ const walletLink = new WalletLink({
 
 // WalletLink provider
 const walletLinkProvider = walletLink.makeWeb3Provider(
-  `https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy`,
+  `https://eth-mainnet.alchemyapi.io/v2/Ql4si7R71u2IsFu_A9oh3llL6Q2IaTqR`,
   1,
 );
 
@@ -113,7 +113,7 @@ const web3Modal = new Web3Modal({
       options: {
         bridge: "https://polygon.bridge.walletconnect.org",
         rpc: {
-          1: `https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy`, // mainnet // For more WalletConnect providers: https://docs.walletconnect.org/quick-start/dapps/web3-provider#required
+          1: `https://eth-mainnet.alchemyapi.io/v2/Ql4si7R71u2IsFu_A9oh3llL6Q2IaTqR`, // mainnet // For more WalletConnect providers: https://docs.walletconnect.org/quick-start/dapps/web3-provider#required
           42: `https://kovan.infura.io/v3/${INFURA_ID}`,
           100: "https://dai.poa.network", // xDai
         },

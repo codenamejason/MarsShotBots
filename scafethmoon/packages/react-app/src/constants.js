@@ -310,7 +310,7 @@ export const NETWORKS = {
     name: "mainnet",
     color: "#ff8b9e",
     chainId: 1,
-    rpcUrl: `https://eth-mainnet.alchemyapi.io/v2/9aVgraLC73OSl72s6mUAyY3LwFkHVNYy`,
+    rpcUrl: `https://eth-mainnet.alchemyapi.io/v2/Ql4si7R71u2IsFu_A9oh3llL6Q2IaTqR`,
     blockExplorer: "https://etherscan.io/",
   },
   kovan: {
